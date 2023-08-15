@@ -1,0 +1,5386 @@
+*****************************
+Namespace(random_seed=1, dataset='last_letters', minibatch_size=1, max_num_worker=3, model='turbo', method='zero_shot', limit_dataset_size=0, dataset_path='./dataset/last_letters/last_letters.json', direct_answer_trigger='\nTherefore, the answer is')
+*****************************
+OPENAI_API_KEY:
+None
+2023/07/12 21:16:58
+setup data loader ...
+worker_seed : 1
+dataloader_num_workers: 3
+dataset : last_letters
+data size : 500
+average num of words for each sample : 15.03
+2023/07/12 21:16:58
+*************************
+1st data
+Take the last letters of each words in "Jeff Jen Giselle Noel" and concatenate them.
+ffnnelle
+Therefore, the answer isffnnelle
+pred_before : ffnnelle
+pred_after : ffnnelle
+pred : ffnnelle
+GT : fnel
+*************************
+*************************
+2st data
+Take the last letters of each words in "Rena Devon Rosalinda Paulina" and concatenate them.
+The last letters of each word in "Rena Devon Rosalinda Paulina" are: a, n, n, a, n, a, a, a. 
+
+Concatenating them together, we get: annanaaa.
+Therefore, the answer isannanaaa.
+pred_before : annanaaa.
+pred_after : annanaaa
+pred : annanaaa
+GT : anaa
+*************************
+*************************
+3st data
+Take the last letters of each words in "Rachel Alisa Fanny Jeffery" and concatenate them.
+The last letters of each word in "Rachel Alisa Fanny Jeffery" are "l a y y y y". Concatenating them gives us "layyyy".
+Therefore, the answer is"layyyy".
+pred_before : "layyyy".
+pred_after : layyyy
+pred : layyyy
+GT : layy
+*************************
+*************************
+4st data
+Take the last letters of each words in "Wilmer Valerie Melissa Eloisa" and concatenate them.
+The last letters of each word in "Wilmer Valerie Melissa Eloisa" are "r e a a". Concatenating them gives the word "reaa".
+Therefore, the answer is"reaa".
+pred_before : "reaa".
+pred_after : reaa
+pred : reaa
+GT : reaa
+*************************
+*************************
+5st data
+Take the last letters of each words in "Dorian Mayra Freddie Magaly" and concatenate them.
+naydy
+Therefore, the answer isnaydy
+pred_before : naydy
+pred_after : naydy
+pred : naydy
+GT : naey
+*************************
+*************************
+6st data
+Take the last letters of each words in "Lamont Frederick Lance Esperanza" and concatenate them.
+The last letters of each word in "Lamont Frederick Lance Esperanza" are: t, k, e, a. 
+
+Concatenating them together, we get "tkea".
+Therefore, the answer is"tkea".
+pred_before : "tkea".
+pred_after : tkea
+pred : tkea
+GT : tkea
+*************************
+*************************
+7st data
+Take the last letters of each words in "Caroline Demetrius Fidel Solomon" and concatenate them.
+The last letters of each word in "Caroline Demetrius Fidel Solomon" are "e s s n n". 
+
+When concatenated, they form the word "essnn".
+Therefore, the answer is"essnn".
+pred_before : "essnn".
+pred_after : essnn
+pred : essnn
+GT : esln
+*************************
+*************************
+8st data
+Take the last letters of each words in "Leon Payton Stefan Javi" and concatenate them.
+nntnai
+Therefore, the answer isnntnai
+pred_before : nntnai
+pred_after : nntnai
+pred : nntnai
+GT : nnni
+*************************
+*************************
+9st data
+Take the last letters of each words in "Bill Santos Roxy Randi" and concatenate them.
+The last letters of each word in "Bill Santos Roxy Randi" are "l s y i". Concatenating them gives the word "lsyi".
+Therefore, the answer is"lsyi".
+pred_before : "lsyi".
+pred_after : lsyi
+pred : lsyi
+GT : lsyi
+*************************
+*************************
+10st data
+Take the last letters of each words in "Franklin Rochelle Brent Sarai" and concatenate them.
+nlnlntn
+Therefore, the answer isnlnlntn
+pred_before : nlnlntn
+pred_after : nlnlntn
+pred : nlnlntn
+GT : neti
+*************************
+*************************
+11st data
+Take the last letters of each words in "Cat Alisha Ramon Norberto" and concatenate them.
+The last letters of each word in "Cat Alisha Ramon Norberto" are: t, a, n, o. 
+
+Concatenating them, we get "tano".
+Therefore, the answer is"tano".
+pred_before : "tano".
+pred_after : tano
+pred : tano
+GT : tano
+*************************
+*************************
+12st data
+Take the last letters of each words in "Mercedes Adela Susana Rose" and concatenate them.
+The last letters of each word in "Mercedes Adela Susana Rose" are "s s a a e e e e". 
+
+When concatenated, they form the word "ssaaeeee".
+Therefore, the answer is"ssaaeeee".
+pred_before : "ssaaeeee".
+pred_after : ssaaeeee
+pred : ssaaeeee
+GT : saae
+*************************
+*************************
+13st data
+Take the last letters of each words in "Ashish Tracey Varun Emil" and concatenate them.
+h, y, n, l
+Therefore, the answer ishynl
+pred_before : hynl
+pred_after : hynl
+pred : hynl
+GT : hynl
+*************************
+*************************
+14st data
+Take the last letters of each words in "Nicky Eden James Matt" and concatenate them.
+The last letters of each word in "Nicky Eden James Matt" are "y n s t t". Concatenating them gives us the word "ynstt".
+Therefore, the answer is"ynstt".
+pred_before : "ynstt".
+pred_after : ynstt
+pred : ynstt
+GT : ynst
+*************************
+*************************
+15st data
+Take the last letters of each words in "Williams Reza Ashton Lillian" and concatenate them.
+saznln
+Therefore, the answer issaznln
+pred_before : saznln
+pred_after : saznln
+pred : saznln
+GT : sann
+*************************
+*************************
+16st data
+Take the last letters of each words in "Erwin Chad Margarito Shanna" and concatenate them.
+nwdotn
+Therefore, the answer isnwdotn
+pred_before : nwdotn
+pred_after : nwdotn
+pred : nwdotn
+GT : ndoa
+*************************
+*************************
+17st data
+Take the last letters of each words in "Manuel Aurelio India Rosalba" and concatenate them.
+The last letters of each word in "Manuel Aurelio India Rosalba" are "l o o a a a a". 
+
+Concatenating them gives the word "looaaa".
+Therefore, the answer is"looaaa".
+pred_before : "looaaa".
+pred_after : looaaa
+pred : looaaa
+GT : loaa
+*************************
+*************************
+18st data
+Take the last letters of each words in "Colton Dexter Katy Brayden" and concatenate them.
+nreyn
+Therefore, the answer isnreyn
+pred_before : nreyn
+pred_after : nreyn
+pred : nreyn
+GT : nryn
+*************************
+*************************
+19st data
+Take the last letters of each words in "Guillermina Evelin Dominique Johnny" and concatenate them.
+aenqy
+Therefore, the answer isaenqy.
+pred_before : aenqy.
+pred_after : aenqy
+pred : aenqy
+GT : aney
+*************************
+*************************
+20st data
+Take the last letters of each words in "Daniella Dianne Ram Mirian" and concatenate them.
+aenamrn
+Therefore, the answer isaenamrn
+pred_before : aenamrn
+pred_after : aenamrn
+pred : aenamrn
+GT : aemn
+*************************
+*************************
+21st data
+Take the last letters of each words in "Jae Dennis Cris Bernadette" and concatenate them.
+The last letters of each word in "Jae Dennis Cris Bernadette" are:
+
+e, s, s, e, e, e
+
+Concatenating them, we get: esseee
+Therefore, the answer isesseee
+pred_before : esseee
+pred_after : esseee
+pred : esseee
+GT : esse
+*************************
+*************************
+22st data
+Take the last letters of each words in "Carla Dolores Cooper Damion" and concatenate them.
+aessrrooerion
+Therefore, the answer isaessrrooerion.
+pred_before : aessrrooerion.
+pred_after : aessrrooerion
+pred : aessrrooerion
+GT : asrn
+*************************
+*************************
+23st data
+Take the last letters of each words in "Nabil Marlene Wendy Jillian" and concatenate them.
+The last letters of each word in "Nabil Marlene Wendy Jillian" are "l e y n". Concatenating them gives us the word "leyn".
+Therefore, the answer is"leyn".
+pred_before : "leyn".
+pred_after : leyn
+pred : leyn
+GT : leyn
+*************************
+*************************
+24st data
+Take the last letters of each words in "Andre Oralia Carrie Bruno" and concatenate them.
+eiaieieo
+Therefore, the answer iseiaieieo
+pred_before : eiaieieo
+pred_after : eiaieieo
+pred : eiaieieo
+GT : eaeo
+*************************
+*************************
+25st data
+Take the last letters of each words in "Amy Ella Amilcar Roman" and concatenate them.
+The last letters of each word in "Amy Ella Amilcar Roman" are: y, a, a, r, n. 
+
+Concatenating them, we get: "yaarn".
+Therefore, the answer is"yaarn".
+pred_before : "yaarn".
+pred_after : yaarn
+pred : yaarn
+GT : yarn
+*************************
+*************************
+26st data
+Take the last letters of each words in "Bethany Rakesh Christine Dinesh" and concatenate them.
+yhesneshesesh
+Therefore, the answer isyhesneshesesh
+pred_before : yhesneshesesh
+pred_after : yhesneshesesh
+pred : yhesneshesesh
+GT : yheh
+*************************
+*************************
+27st data
+Take the last letters of each words in "Micaela Kevin Diamond Ty" and concatenate them.
+The last letters of each word in "Micaela Kevin Diamond Ty" are "a n d y y". 
+
+Concatenating them gives us the word "andyy".
+Therefore, the answer is"andyy".
+pred_before : "andyy".
+pred_after : andyy
+pred : andyy
+GT : andy
+*************************
+*************************
+28st data
+Take the last letters of each words in "Laila Audrey Glenn Rhonda" and concatenate them.
+aaydnn
+Therefore, the answer isaaydnn
+pred_before : aaydnn
+pred_after : aaydnn
+pred : aaydnn
+GT : ayna
+*************************
+*************************
+29st data
+Take the last letters of each words in "Lara Greg Ethan Terrence" and concatenate them.
+The last letters of each word in "Lara Greg Ethan Terrence" are "a g n e e". 
+
+When concatenated, they form the word "agnee".
+Therefore, the answer is"agnee".
+pred_before : "agnee".
+pred_after : agnee
+pred : agnee
+GT : agne
+*************************
+*************************
+30st data
+Take the last letters of each words in "Victoria Aurora Amalia Princess" and concatenate them.
+The last letters of each word in "Victoria Aurora Amalia Princess" are "a a a s s s". 
+
+Concatenating them gives us "aasss".
+Therefore, the answer is"aasss".
+pred_before : "aasss".
+pred_after : aasss
+pred : aasss
+GT : aaas
+*************************
+*************************
+31st data
+Take the last letters of each words in "Luisa Tatiana Drake Hillary" and concatenate them.
+a n e e y
+Therefore, the answer isanee
+pred_before : anee
+pred_after : anee
+pred : anee
+GT : aaey
+*************************
+*************************
+32st data
+Take the last letters of each words in "Kelvin Brennan Carina Paty" and concatenate them.
+nnaanay
+Therefore, the answer isnnaanay
+pred_before : nnaanay
+pred_after : nnaanay
+pred : nnaanay
+GT : nnay
+*************************
+*************************
+33st data
+Take the last letters of each words in "Ronnie Kiki Alan Remy" and concatenate them.
+The last letters of each word in "Ronnie Kiki Alan Remy" are "e i n y". Concatenating them gives us the word "einy".
+Therefore, the answer iseiny
+pred_before : einy
+pred_after : einy
+pred : einy
+GT : einy
+*************************
+*************************
+34st data
+Take the last letters of each words in "Gus Brock Ava Jenna" and concatenate them.
+The last letters of each word in "Gus Brock Ava Jenna" are "s k a a". Concatenating them gives us the word "skaa".
+Therefore, the answer is"skaa".
+pred_before : "skaa".
+pred_after : skaa
+pred : skaa
+GT : skaa
+*************************
+*************************
+35st data
+Take the last letters of each words in "Wesley Marcelo Rodolfo Erick" and concatenate them.
+yoooforlko
+Therefore, the answer isyoooforlko.
+pred_before : yoooforlko.
+pred_after : yoooforlko
+pred : yoooforlko
+GT : yook
+*************************
+*************************
+36st data
+Take the last letters of each words in "Prince Rene Vishal Patrick" and concatenate them.
+The last letters of each word in "Prince Rene Vishal Patrick" are: e, e, l, k. 
+
+Concatenating them, we get "eelk".
+Therefore, the answer is"eelk".
+pred_before : "eelk".
+pred_after : eelk
+pred : eelk
+GT : eelk
+*************************
+*************************
+37st data
+Take the last letters of each words in "Cristobal Dania Li Anna" and concatenate them.
+The last letters of each word in "Cristobal Dania Li Anna" are "l n a i a a". 
+
+When concatenated, they form the word "lnaiaa".
+Therefore, the answer is"lnaiaa".
+pred_before : "lnaiaa".
+pred_after : lnaiaa
+pred : lnaiaa
+GT : laia
+*************************
+*************************
+38st data
+Take the last letters of each words in "Oscar George Sanjay Haydee" and concatenate them.
+rseayee
+Therefore, the answer isrseayee
+pred_before : rseayee
+pred_after : rseayee
+pred : rseayee
+GT : reye
+*************************
+*************************
+39st data
+Take the last letters of each words in "Breanna Trey Omar Patrice" and concatenate them.
+aeyarce
+Therefore, the answer isaeyarce.
+pred_before : aeyarce.
+pred_after : aeyarce
+pred : aeyarce
+GT : ayre
+*************************
+*************************
+40st data
+Take the last letters of each words in "Skyler Oliver Cristy Sierra" and concatenate them.
+r r y a
+Therefore, the answer isrrya
+pred_before : rrya
+pred_after : rrya
+pred : rrya
+GT : rrya
+*************************
+*************************
+41st data
+Take the last letters of each words in "Andrés Miles Ronaldo Melinda" and concatenate them.
+s s o a
+Therefore, the answer is"soa"
+pred_before : "soa"
+pred_after : soa
+pred : soa
+GT : ssoa
+*************************
+*************************
+42st data
+Take the last letters of each words in "Itzel Anderson Kenia Edy" and concatenate them.
+The last letters of each word in "Itzel Anderson Kenia Edy" are: l, n, a, a, y. 
+
+Concatenating them, we get "lnaay".
+Therefore, the answer is"lnaay".
+pred_before : "lnaay".
+pred_after : lnaay
+pred : lnaay
+GT : lnay
+*************************
+*************************
+43st data
+Take the last letters of each words in "Joyce Leroy Alyssa Maggie" and concatenate them.
+The last letters of each word in "Joyce Leroy Alyssa Maggie" are: e, y, a, e. 
+
+Concatenating them, we get: eyae.
+Therefore, the answer iseyae.
+pred_before : eyae.
+pred_after : eyae
+pred : eyae
+GT : eyae
+*************************
+*************************
+44st data
+Take the last letters of each words in "Katia Mina Cam Ronda" and concatenate them.
+The last letters of each word in "Katia Mina Cam Ronda" are "a a m a". 
+
+When concatenated, they form the word "aama".
+Therefore, the answer is"aama".
+pred_before : "aama".
+pred_after : aama
+pred : aama
+GT : aama
+*************************
+*************************
+45st data
+Take the last letters of each words in "Yasmin Yesenia Carmela Susie" and concatenate them.
+nnaaieaieaie
+Therefore, the answer isnnaaieaieaie
+pred_before : nnaaieaieaie
+pred_after : nnaaieaieaie
+pred : nnaaieaieaie
+GT : naae
+*************************
+*************************
+46st data
+Take the last letters of each words in "Rosendo Shayla Erica Georgia" and concatenate them.
+odahaylaicagia
+Therefore, the answer isodahaylaicagia
+pred_before : odahaylaicagia
+pred_after : odahaylaicagia
+pred : odahaylaicagia
+GT : oaaa
+*************************
+*************************
+47st data
+Take the last letters of each words in "Gavin Neha Asha Baltazar" and concatenate them.
+nhaa
+Therefore, the answer isnhaa
+pred_before : nhaa
+pred_after : nhaa
+pred : nhaa
+GT : naar
+*************************
+*************************
+48st data
+Take the last letters of each words in "Cruz Wilber Marilu Malik" and concatenate them.
+zrulrlik
+Therefore, the answer iszrulrlik
+pred_before : zrulrlik
+pred_after : zrulrlik
+pred : zrulrlik
+GT : zruk
+*************************
+*************************
+49st data
+Take the last letters of each words in "Gee Joseluis Cory Stefanie" and concatenate them.
+s e s y e e
+Therefore, the answer issesyee
+pred_before : sesyee
+pred_after : sesyee
+pred : sesyee
+GT : esye
+*************************
+*************************
+50st data
+Take the last letters of each words in "Armando Astrid Anibal Dakota" and concatenate them.
+The last letters of each word in "Armando Astrid Anibal Dakota" are: o d d a a a. 
+
+When concatenated, they form the word "oddaaa".
+Therefore, the answer is"oddaaa".
+pred_before : "oddaaa".
+pred_after : oddaaa
+pred : oddaaa
+GT : odla
+*************************
+*************************
+51st data
+Take the last letters of each words in "Missy Erin Lorna Lenny" and concatenate them.
+The last letters of each word in "Missy Erin Lorna Lenny" are "y n a y". Concatenating them gives us "ynay".
+Therefore, the answer is"ynay".
+pred_before : "ynay".
+pred_after : ynay
+pred : ynay
+GT : ynay
+*************************
+*************************
+52st data
+Take the last letters of each words in "Sabrina Pete Mary La" and concatenate them.
+The last letters of each word in "Sabrina Pete Mary La" are "a e y a". Concatenating them gives us "aeya".
+Therefore, the answer is"aeya".
+pred_before : "aeya".
+pred_after : aeya
+pred : aeya
+GT : aeya
+*************************
+*************************
+53st data
+Take the last letters of each words in "Jim Dwayne Ricky Artemio" and concatenate them.
+mewnyeio
+Therefore, the answer ismewnyeio
+pred_before : mewnyeio
+pred_after : mewnyeio
+pred : mewnyeio
+GT : meyo
+*************************
+*************************
+54st data
+Take the last letters of each words in "Camilo Becky Eliza Rebecca" and concatenate them.
+The last letters of each word in "Camilo Becky Eliza Rebecca" are "o y a a". Concatenating them gives us the word "oyaa".
+Therefore, the answer is"oyaa"
+pred_before : "oyaa"
+pred_after : oyaa
+pred : oyaa
+GT : oyaa
+*************************
+*************************
+55st data
+Take the last letters of each words in "Donny Lucero Christopher Gregory" and concatenate them.
+The last letters of each word in "Donny Lucero Christopher Gregory" are "y o r e r y y". 
+
+Concatenating them gives us the word "yoreyryy".
+Therefore, the answer is"yoreyryy".
+pred_before : "yoreyryy".
+pred_after : yoreyryy
+pred : yoreyryy
+GT : yory
+*************************
+*************************
+56st data
+Take the last letters of each words in "Forrest Juanito Allan Candice" and concatenate them.
+sttoanice
+Therefore, the answer issttoanice
+pred_before : sttoanice
+pred_after : sttoanice
+pred : sttoanice
+GT : tone
+*************************
+*************************
+57st data
+Take the last letters of each words in "Aj Jd Maddie Francisca" and concatenate them.
+The last letters of each word in "Aj Jd Maddie Francisca" are: j, d, e, a. 
+
+Concatenating them, we get: jdea.
+Therefore, the answer isjdea.
+pred_before : jdea.
+pred_after : jdea
+pred : jdea
+GT : jdea
+*************************
+*************************
+58st data
+Take the last letters of each words in "Geovanny Tom Katelyn Jennifer" and concatenate them.
+yymnlnr
+Therefore, the answer isyymnlnr
+pred_before : yymnlnr
+pred_after : yymnlnr
+pred : yymnlnr
+GT : ymnr
+*************************
+*************************
+59st data
+Take the last letters of each words in "Liz Andrea Suresh Vera" and concatenate them.
+zahera
+Therefore, the answer iszahera
+pred_before : zahera
+pred_after : zahera
+pred : zahera
+GT : zaha
+*************************
+*************************
+60st data
+Take the last letters of each words in "Sunny Trisha Paul Guy" and concatenate them.
+The last letters of each word in "Sunny Trisha Paul Guy" are: y, a, l, l, l, y.
+
+Concatenating them together, we get "yally".
+Therefore, the answer is"yally".
+pred_before : "yally".
+pred_after : yally
+pred : yally
+GT : yaly
+*************************
+*************************
+61st data
+Take the last letters of each words in "Candy Megan Ed Nathan" and concatenate them.
+The last letters of each word in "Candy Megan Ed Nathan" are "y n n n". Concatenating them gives us the word "ynn".
+Therefore, the answer is"ynn".
+pred_before : "ynn".
+pred_after : ynn
+pred : ynn
+GT : yndn
+*************************
+*************************
+62st data
+Take the last letters of each words in "Dana German Alvin Braden" and concatenate them.
+The last letters of each word in "Dana German Alvin Braden" are "a n n n". Concatenating them gives us the word "annn".
+Therefore, the answer is"annn".
+pred_before : "annn".
+pred_after : annn
+pred : annn
+GT : annn
+*************************
+*************************
+63st data
+Take the last letters of each words in "Len Marquis Kylie Sandra" and concatenate them.
+The last letters of each word in "Len Marquis Kylie Sandra" are "n s e a". Concatenating them gives us the word "nsea".
+Therefore, the answer is"nsea".
+pred_before : "nsea".
+pred_after : nsea
+pred : nsea
+GT : nsea
+*************************
+*************************
+64st data
+Take the last letters of each words in "Rich Parker Edward Milagros" and concatenate them.
+rkerdros
+Therefore, the answer isrkerdros
+pred_before : rkerdros
+pred_after : rkerdros
+pred : rkerdros
+GT : hrds
+*************************
+*************************
+65st data
+Take the last letters of each words in "Marty Justine Edgardo Osman" and concatenate them.
+yeeon
+Therefore, the answer isyeeon
+pred_before : yeeon
+pred_after : yeeon
+pred : yeeon
+GT : yeon
+*************************
+*************************
+66st data
+Take the last letters of each words in "Carissa Paige Consuelo Izzy" and concatenate them.
+aegoloyz
+Therefore, the answer isaegoloyz.
+pred_before : aegoloyz.
+pred_after : aegoloyz
+pred : aegoloyz
+GT : aeoy
+*************************
+*************************
+67st data
+Take the last letters of each words in "Daryl Owen Myra Aaron" and concatenate them.
+nwnyraon
+Therefore, the answer isnwnyraon
+pred_before : nwnyraon
+pred_after : nwnyraon
+pred : nwnyraon
+GT : lnan
+*************************
+*************************
+68st data
+Take the last letters of each words in "Yamileth Dane Aron Dee" and concatenate them.
+The last letters of each word in "Yamileth Dane Aron Dee" are: h, e, e, n, e, n, e, e.
+
+Concatenating them together, we get: heenenee.
+Therefore, the answer isheenenee.
+pred_before : heenenee.
+pred_after : heenenee
+pred : heenenee
+GT : hene
+*************************
+*************************
+69st data
+Take the last letters of each words in "Maricruz Alfredo Barry Deepak" and concatenate them.
+zodoyk
+Therefore, the answer iszodoyk.
+pred_before : zodoyk.
+pred_after : zodoyk
+pred : zodoyk
+GT : zoyk
+*************************
+*************************
+70st data
+Take the last letters of each words in "Deandre Moe Jack Vanessa" and concatenate them.
+eoecksa
+Therefore, the answer iseoecksa.
+pred_before : eoecksa.
+pred_after : eoecksa
+pred : eoecksa
+GT : eeka
+*************************
+*************************
+71st data
+Take the last letters of each words in "Selene Felix Milton Yessica" and concatenate them.
+The last letters of each word in "Selene Felix Milton Yessica" are "e x n a". 
+
+Concatenating them gives us the word "exna".
+Therefore, the answer is"exna".
+pred_before : "exna".
+pred_after : exna
+pred : exna
+GT : exna
+*************************
+*************************
+72st data
+Take the last letters of each words in "Lore Erasmo Louis David" and concatenate them.
+The last letters of each word in "Lore Erasmo Louis David" are: e, o, s, d. 
+
+Concatenating them, we get the word "eosd".
+Therefore, the answer is"eosd".
+pred_before : "eosd".
+pred_after : eosd
+pred : eosd
+GT : eosd
+*************************
+*************************
+73st data
+Take the last letters of each words in "Alain Jerome Kristina Ida" and concatenate them.
+The last letters of each word in "Alain Jerome Kristina Ida" are: n, e, a, a. 
+
+Concatenating them together, we get "nea".
+Therefore, the answer is"nea".
+pred_before : "nea".
+pred_after : nea
+pred : nea
+GT : neaa
+*************************
+*************************
+74st data
+Take the last letters of each words in "Denis Gigi Heather Ginger" and concatenate them.
+sgrer
+Therefore, the answer issgrer
+pred_before : sgrer
+pred_after : sgrer
+pred : sgrer
+GT : sirr
+*************************
+*************************
+75st data
+Take the last letters of each words in "Albert Felicia Margo Patty" and concatenate them.
+tiaaoy
+Therefore, the answer istiaaoy
+pred_before : tiaaoy
+pred_after : tiaaoy
+pred : tiaaoy
+GT : taoy
+*************************
+*************************
+76st data
+Take the last letters of each words in "Felipe Heidi Nino Bradley" and concatenate them.
+The last letters of each word in "Felipe Heidi Nino Bradley" are "e i o y". Concatenating them gives us the word "eioy".
+Therefore, the answer is"eioy".
+pred_before : "eioy".
+pred_after : eioy
+pred : eioy
+GT : eioy
+*************************
+*************************
+77st data
+Take the last letters of each words in "Thomas Cara Nita Frances" and concatenate them.
+saraneces
+Therefore, the answer issaraneces
+pred_before : saraneces
+pred_after : saraneces
+pred : saraneces
+GT : saas
+*************************
+*************************
+78st data
+Take the last letters of each words in "Regina Joel Justice Eli" and concatenate them.
+The last letters of each word in "Regina Joel Justice Eli" are "a l e i". Concatenating them gives us the word "alei".
+Therefore, the answer is"alei".
+pred_before : "alei".
+pred_after : alei
+pred : alei
+GT : alei
+*************************
+*************************
+79st data
+Take the last letters of each words in "Mabel Estela Irene May" and concatenate them.
+The last letters of each word in "Mabel Estela Irene May" are "l a e e y". 
+
+When concatenated, they form the word "laeey".
+Therefore, the answer is"laeey".
+pred_before : "laeey".
+pred_after : laeey
+pred : laeey
+GT : laey
+*************************
+*************************
+80st data
+Take the last letters of each words in "Adalberto Jamal Carter Robyn" and concatenate them.
+The last letters of each word in "Adalberto Jamal Carter Robyn" are: o, l, o, r, n. 
+
+Concatenating them, we get "olorn".
+Therefore, the answer is"olorn".
+pred_before : "olorn".
+pred_after : olorn
+pred : olorn
+GT : olrn
+*************************
+*************************
+81st data
+Take the last letters of each words in "Eugenio Moises Marion Kirk" and concatenate them.
+The last letters of each word in "Eugenio Moises Marion Kirk" are "o s n n k". 
+
+Concatenating them gives us the word "osnnk".
+Therefore, the answer is"osnnk".
+pred_before : "osnnk".
+pred_after : osnnk
+pred : osnnk
+GT : osnk
+*************************
+*************************
+82st data
+Take the last letters of each words in "Ace Rosy Kimberly Jean" and concatenate them.
+e-y-y-n
+Therefore, the answer ise-y-y-n.
+pred_before : e-y-y-n.
+pred_after : e-y-y-n
+pred : e-y-y-n
+GT : eyyn
+*************************
+*************************
+83st data
+Take the last letters of each words in "Natalie Gilbert Brian Sanchez" and concatenate them.
+The last letters of each word in "Natalie Gilbert Brian Sanchez" are "e t t n n z". Concatenating them gives us "ettnnz".
+Therefore, the answer isettnnz
+pred_before : ettnnz
+pred_after : ettnnz
+pred : ettnnz
+GT : etnz
+*************************
+*************************
+84st data
+Take the last letters of each words in "Virginia Juanita Zak Wayne" and concatenate them.
+The last letters of each word in "Virginia Juanita Zak Wayne" are "a a k e e". Concatenating them gives us "aakee".
+Therefore, the answer is"aakee".
+pred_before : "aakee".
+pred_after : aakee
+pred : aakee
+GT : aake
+*************************
+*************************
+85st data
+Take the last letters of each words in "Andy Cecilia Gretchen Sandi" and concatenate them.
+yaiandn
+Therefore, the answer isyaiandn
+pred_before : yaiandn
+pred_after : yaiandn
+pred : yaiandn
+GT : yani
+*************************
+*************************
+86st data
+Take the last letters of each words in "Bernie Melina Kelsey Rusty" and concatenate them.
+The last letters of each word in "Bernie Melina Kelsey Rusty" are: e, a, y, a. 
+
+Concatenating them together, we get "eaya".
+Therefore, the answer iseaya.
+pred_before : eaya.
+pred_after : eaya
+pred : eaya
+GT : eayy
+*************************
+*************************
+87st data
+Take the last letters of each words in "Rocio Sandy Anahi Latasha" and concatenate them.
+The last letters of each word in "Rocio Sandy Anahi Latasha" are "o y i a". 
+
+When concatenated, they form the word "oyia".
+Therefore, the answer is"oyia".
+pred_before : "oyia".
+pred_after : oyia
+pred : oyia
+GT : oyia
+*************************
+*************************
+88st data
+Take the last letters of each words in "Christy Rey Michelle Dolly" and concatenate them.
+y y e y
+Therefore, the answer isyyey
+pred_before : yyey
+pred_after : yyey
+pred : yyey
+GT : yyey
+*************************
+*************************
+89st data
+Take the last letters of each words in "Lizzy Juany Aisha Brenda" and concatenate them.
+yzynahda
+Therefore, the answer isyzynahda
+pred_before : yzynahda
+pred_after : yzynahda
+pred : yzynahda
+GT : yyaa
+*************************
+*************************
+90st data
+Take the last letters of each words in "Denny Carlo Reinaldo Jessi" and concatenate them.
+oyolodssi
+Therefore, the answer isoyolodssi
+pred_before : oyolodssi
+pred_after : oyolodssi
+pred : oyolodssi
+GT : yooi
+*************************
+*************************
+91st data
+Take the last letters of each words in "Les Jun Noe Juliana" and concatenate them.
+The last letters of each word in "Les Jun Noe Juliana" are "s n e a". Concatenating them gives us the word "snea".
+Therefore, the answer is"snea".
+pred_before : "snea".
+pred_after : snea
+pred : snea
+GT : snea
+*************************
+*************************
+92st data
+Take the last letters of each words in "Flora Warren Gwendolyn Alissa" and concatenate them.
+The last letters of each word in "Flora Warren Gwendolyn Alissa" are: a, n, n, n, n, n, n, n, a. 
+
+Concatenating them together, we get "annnnnnna".
+Therefore, the answer is"annnnnnna".
+pred_before : "annnnnnna".
+pred_after : annnnnnna
+pred : annnnnnna
+GT : anna
+*************************
+*************************
+93st data
+Take the last letters of each words in "Jorge Luis Mo Alexia Jerry" and concatenate them.
+The last letters of each word in "Jorge Luis Mo Alexia Jerry" are: e, s, o, a, y.
+
+Concatenating them, we get: esoay.
+Therefore, the answer is"esoay".
+pred_before : "esoay".
+pred_after : esoay
+pred : esoay
+GT : soay
+*************************
+*************************
+94st data
+Take the last letters of each words in "Reginald Franky Kira Gordon" and concatenate them.
+dnykag
+Therefore, the answer isdnykag
+pred_before : dnykag
+pred_after : dnykag
+pred : dnykag
+GT : dyan
+*************************
+*************************
+95st data
+Take the last letters of each words in "Emely Chelsea Vladimir Tyrone" and concatenate them.
+yaeaneaee
+Therefore, the answer isyaeaneaee
+pred_before : yaeaneaee
+pred_after : yaeaneaee
+pred : yaeaneaee
+GT : yare
+*************************
+*************************
+96st data
+Take the last letters of each words in "Ron Carl Joann Young" and concatenate them.
+The last letters of each word in "Ron Carl Joann Young" are "n l n n g". Concatenating them gives us the word "nlnng".
+Therefore, the answer isnlnng
+pred_before : nlnng
+pred_after : nlnng
+pred : nlnng
+GT : nlng
+*************************
+*************************
+97st data
+Take the last letters of each words in "Russell Mitchell Bee Faith" and concatenate them.
+l l e e h
+Therefore, the answer islleeh
+pred_before : lleeh
+pred_after : lleeh
+pred : lleeh
+GT : lleh
+*************************
+*************************
+98st data
+Take the last letters of each words in "Philip Antony Iris Alicia" and concatenate them.
+The last letters of each word in "Philip Antony Iris Alicia" are: p, y, s, a. 
+
+Concatenating them together, we get "pysa".
+Therefore, the answer ispysa
+pred_before : pysa
+pred_after : pysa
+pred : pysa
+GT : pysa
+*************************
+*************************
+99st data
+Take the last letters of each words in "Nick Ada Stephany Suzie" and concatenate them.
+kdaany
+Therefore, the answer iskdaany
+pred_before : kdaany
+pred_after : kdaany
+pred : kdaany
+GT : kaye
+*************************
+*************************
+100st data
+Take the last letters of each words in "Madeline Mckenzie Louie Dylan" and concatenate them.
+e e e e n e i n
+Therefore, the answer iseeeneein
+pred_before : eeeneein
+pred_after : eeeneein
+pred : eeeneein
+GT : eeen
+*************************
+*************************
+101st data
+Take the last letters of each words in "Desmond Camille Joana Garcia" and concatenate them.
+d, e, e, a
+Therefore, the answer is"deea"
+pred_before : "deea"
+pred_after : deea
+pred : deea
+GT : deaa
+*************************
+*************************
+102st data
+Take the last letters of each words in "Clarissa Shauna Alexis Branden" and concatenate them.
+asnaen
+Therefore, the answer isasnaen
+pred_before : asnaen
+pred_after : asnaen
+pred : asnaen
+GT : aasn
+*************************
+*************************
+103st data
+Take the last letters of each words in "Tiara Araceli Michaela Genaro" and concatenate them.
+The last letters of each word in "Tiara Araceli Michaela Genaro" are "a i a a o a o". 
+
+When concatenated, they form the word "aiaaoao".
+Therefore, the answer is"aiaaoao".
+pred_before : "aiaaoao".
+pred_after : aiaaoao
+pred : aiaaoao
+GT : aiao
+*************************
+*************************
+104st data
+Take the last letters of each words in "Raymundo Jonathon Lexi Rony" and concatenate them.
+odohnoJ inohtanoJ ixeL ynoR
+Therefore, the answer isodohnoJinohtanoJixeLynoR
+pred_before : odohnoJinohtanoJixeLynoR
+pred_after : odohnoJinohtanoJixeLynoR
+pred : odohnoJinohtanoJixeLynoR
+GT : oniy
+*************************
+*************************
+105st data
+Take the last letters of each words in "Noah Aubrey Cesar Eliana" and concatenate them.
+The last letters of each word in "Noah Aubrey Cesar Eliana" are: h, y, r, a. 
+
+Concatenating them together, we get: hyra.
+Therefore, the answer is"hyra".
+pred_before : "hyra".
+pred_after : hyra
+pred : hyra
+GT : hyra
+*************************
+*************************
+106st data
+Take the last letters of each words in "Gabe Dora Aileen Modesto" and concatenate them.
+The last letters of each word in "Gabe Dora Aileen Modesto" are: e, a, n, o, o. 
+
+Concatenating them, we get: "eanoo".
+Therefore, the answer is"eanoo".
+pred_before : "eanoo".
+pred_after : eanoo
+pred : eanoo
+GT : eano
+*************************
+*************************
+107st data
+Take the last letters of each words in "Violeta Clay Janelle Mac" and concatenate them.
+The last letters of each word in "Violeta Clay Janelle Mac" are "a y e e c". 
+
+Concatenating them gives us the word "ayeec".
+Therefore, the answer is"ayeec".
+pred_before : "ayeec".
+pred_after : ayeec
+pred : ayeec
+GT : ayec
+*************************
+*************************
+108st data
+Take the last letters of each words in "Evelyn Mason Shelby Aldo" and concatenate them.
+nnyodn
+Therefore, the answer isnnyodn
+pred_before : nnyodn
+pred_after : nnyodn
+pred : nnyodn
+GT : nnyo
+*************************
+*************************
+109st data
+Take the last letters of each words in "Mari Ximena Leo Antonia" and concatenate them.
+The last letters of each word in "Mari Ximena Leo Antonia" are: i, a, o, a. 
+
+Concatenating them, we get "iaoa".
+Therefore, the answer is"iaoa".
+pred_before : "iaoa".
+pred_after : iaoa
+pred : iaoa
+GT : iaoa
+*************************
+*************************
+110st data
+Take the last letters of each words in "Theo Sheila Mariana Esmeralda" and concatenate them.
+The last letters of each word in "Theo Sheila Mariana Esmeralda" are "o a a a a a". 
+
+When concatenated, they form the word "oaaaaa".
+Therefore, the answer is"oaaaaa".
+pred_before : "oaaaaa".
+pred_after : oaaaaa
+pred : oaaaaa
+GT : oaaa
+*************************
+*************************
+111st data
+Take the last letters of each words in "Jesús Vidal Maxine Gloria" and concatenate them.
+sudalninea
+Therefore, the answer issudalninea
+pred_before : sudalninea
+pred_after : sudalninea
+pred : sudalninea
+GT : slea
+*************************
+*************************
+112st data
+Take the last letters of each words in "Drew Jhon Jayden Cliff" and concatenate them.
+The last letters of each word are: w, n, n, f. 
+
+Concatenating them gives the word "wnnf".
+Therefore, the answer iswnnf
+pred_before : wnnf
+pred_after : wnnf
+pred : wnnf
+GT : wnnf
+*************************
+*************************
+113st data
+Take the last letters of each words in "Evan Ray Sofia Alonso" and concatenate them.
+nryaao
+Therefore, the answer isnryaao
+pred_before : nryaao
+pred_after : nryaao
+pred : nryaao
+GT : nyao
+*************************
+*************************
+114st data
+Take the last letters of each words in "Britt Tamara Elvis Nayeli" and concatenate them.
+taraelisayeli
+Therefore, the answer istaraelisayeli
+pred_before : taraelisayeli
+pred_after : taraelisayeli
+pred : taraelisayeli
+GT : tasi
+*************************
+*************************
+115st data
+Take the last letters of each words in "Matilde Jan Marcel Mimi" and concatenate them.
+e n l e i
+Therefore, the answer isenlei
+pred_before : enlei
+pred_after : enlei
+pred : enlei
+GT : enli
+*************************
+*************************
+116st data
+Take the last letters of each words in "Max Mikey Cynthia Holly" and concatenate them.
+x y a y
+Therefore, the answer isxyay
+pred_before : xyay
+pred_after : xyay
+pred : xyay
+GT : xyay
+*************************
+*************************
+117st data
+Take the last letters of each words in "Sherry Ben Allison Anthony" and concatenate them.
+The last letters of each word in "Sherry Ben Allison Anthony" are "y n n y y". Concatenating them gives us the word "ynnyy".
+Therefore, the answer is"ynnyy".
+pred_before : "ynnyy".
+pred_after : ynnyy
+pred : ynnyy
+GT : ynny
+*************************
+*************************
+118st data
+Take the last letters of each words in "Connie Elena Tami Stuart" and concatenate them.
+The last letters of each word in "Connie Elena Tami Stuart" are: e, a, i, t, t. 
+
+Concatenating them, we get "eaitt".
+Therefore, the answer iseaitt
+pred_before : eaitt
+pred_after : eaitt
+pred : eaitt
+GT : eait
+*************************
+*************************
+119st data
+Take the last letters of each words in "Juliet Ricardo Tita Dianna" and concatenate them.
+The last letters of each word are: t, o, a, a. 
+
+Concatenating them, we get "toaa".
+Therefore, the answer is"toaa".
+pred_before : "toaa".
+pred_after : toaa
+pred : toaa
+GT : toaa
+*************************
+*************************
+120st data
+Take the last letters of each words in "Courtney Ann John Fer" and concatenate them.
+y n n r
+Therefore, the answer isynnr
+pred_before : ynnr
+pred_after : ynnr
+pred : ynnr
+GT : ynnr
+*************************
+*************************
+121st data
+Take the last letters of each words in "Corey Elvin Tino Melvin" and concatenate them.
+The last letters of each word in "Corey Elvin Tino Melvin" are: y, n, o, n. 
+
+Concatenating them together, we get "ynon".
+Therefore, the answer is"ynon".
+pred_before : "ynon".
+pred_after : ynon
+pred : ynon
+GT : ynon
+*************************
+*************************
+122st data
+Take the last letters of each words in "Emilia Jonas Christi Sophia" and concatenate them.
+aasiih
+Therefore, the answer isaasiih.
+pred_before : aasiih.
+pred_after : aasiih
+pred : aasiih
+GT : asia
+*************************
+*************************
+123st data
+Take the last letters of each words in "Marcos Kerri Fabio Stephen" and concatenate them.
+sosrni
+Therefore, the answer issosrni
+pred_before : sosrni
+pred_after : sosrni
+pred : sosrni
+GT : sion
+*************************
+*************************
+124st data
+Take the last letters of each words in "Adrian Marlon Karla Florence" and concatenate them.
+nolnrlaee
+Therefore, the answer isnolnrlaee
+pred_before : nolnrlaee
+pred_after : nolnrlaee
+pred : nolnrlaee
+GT : nnae
+*************************
+*************************
+125st data
+Take the last letters of each words in "Tomas Nic Zoila Calvin" and concatenate them.
+sncal
+Therefore, the answer issncal
+pred_before : sncal
+pred_after : sncal
+pred : sncal
+GT : scan
+*************************
+*************************
+126st data
+Take the last letters of each words in "Ángel Carlton Sameer Martinez" and concatenate them.
+ltnrsmz
+Therefore, the answer isltnrsmz
+pred_before : ltnrsmz
+pred_after : ltnrsmz
+pred : ltnrsmz
+GT : lnrz
+*************************
+*************************
+127st data
+Take the last letters of each words in "Timmy Katherine Gabriel Nate" and concatenate them.
+yehel
+Therefore, the answer isyehel
+pred_before : yehel
+pred_after : yehel
+pred : yehel
+GT : yele
+*************************
+*************************
+128st data
+Take the last letters of each words in "Janette Stacey Ronny Kim" and concatenate them.
+The last letters of each word in "Janette Stacey Ronny Kim" are: e, y, y, m.
+
+Concatenating them, we get: eyym.
+Therefore, the answer iseyym.
+pred_before : eyym.
+pred_after : eyym
+pred : eyym
+GT : eyym
+*************************
+*************************
+129st data
+Take the last letters of each words in "Abel Mallory Theresa Quinn" and concatenate them.
+The last letters of each word in "Abel Mallory Theresa Quinn" are "l y a n". Concatenating them gives us "lyan".
+Therefore, the answer is"lyan".
+pred_before : "lyan".
+pred_after : lyan
+pred : lyan
+GT : lyan
+*************************
+*************************
+130st data
+Take the last letters of each words in "Kelly Cheryl Nancy Jojo" and concatenate them.
+The last letters of each word in "Kelly Cheryl Nancy Jojo" are "y l y o". Concatenating them gives us "ylyo".
+Therefore, the answer is"ylyo".
+pred_before : "ylyo".
+pred_after : ylyo
+pred : ylyo
+GT : ylyo
+*************************
+*************************
+131st data
+Take the last letters of each words in "Pancho Claudio Elaine Vicky" and concatenate them.
+oaoiey
+Therefore, the answer isoaoiey
+pred_before : oaoiey
+pred_after : oaoiey
+pred : oaoiey
+GT : ooey
+*************************
+*************************
+132st data
+Take the last letters of each words in "Darwin Colin Cj Abhishek" and concatenate them.
+nncjek
+Therefore, the answer isnncjek
+pred_before : nncjek
+pred_after : nncjek
+pred : nncjek
+GT : nnjk
+*************************
+*************************
+133st data
+Take the last letters of each words in "Justin Neal Jt Lucia" and concatenate them.
+The last letters of each word in "Justin Neal Jt Lucia" are: N, L, T, A. 
+
+Concatenating them together, we get "NLTA".
+Therefore, the answer isNLTA.
+pred_before : NLTA.
+pred_after : NLTA
+pred : NLTA
+GT : nlta
+*************************
+*************************
+134st data
+Take the last letters of each words in "Belkis Wendell Lissette Patricia" and concatenate them.
+sldetia
+Therefore, the answer issldetia
+pred_before : sldetia
+pred_after : sldetia
+pred : sldetia
+GT : slea
+*************************
+*************************
+135st data
+Take the last letters of each words in "Morgan Perla Joao Marta" and concatenate them.
+The last letters of each word in "Morgan Perla Joao Marta" are "n a o a". 
+
+When concatenated, they form the word "naoa".
+Therefore, the answer is"naoa".
+pred_before : "naoa".
+pred_after : naoa
+pred : naoa
+GT : naoa
+*************************
+*************************
+136st data
+Take the last letters of each words in "Dan Ruth Xavier Isidro" and concatenate them.
+The last letters of each word in "Dan Ruth Xavier Isidro" are "n h r r o o". Concatenating them gives us "nhrrroo".
+Therefore, the answer is"nhrrroo".
+pred_before : "nhrrroo".
+pred_after : nhrrroo
+pred : nhrrroo
+GT : nhro
+*************************
+*************************
+137st data
+Take the last letters of each words in "Wally Claire Helen Nacho" and concatenate them.
+The last letters of each word in "Wally Claire Helen Nacho" are "y e n o". Concatenating them gives us the word "yeno".
+Therefore, the answer is"yeno".
+pred_before : "yeno".
+pred_after : yeno
+pred : yeno
+GT : yeno
+*************************
+*************************
+138st data
+Take the last letters of each words in "Anand Estefania Stanley Lizette" and concatenate them.
+dnnay
+Therefore, the answer isdnnay
+pred_before : dnnay
+pred_after : dnnay
+pred : dnnay
+GT : daye
+*************************
+*************************
+139st data
+Take the last letters of each words in "Charity Svetlana Jamie Jose A" and concatenate them.
+The last letters of each word in "Charity Svetlana Jamie Jose A" are "y a e e A". Concatenating them gives us the word "yae eA".
+Therefore, the answer is"yae eA".
+pred_before : "yae eA".
+pred_after : yaeeA
+pred : yaeeA
+GT : yaeA
+*************************
+*************************
+140st data
+Take the last letters of each words in "Markus Kathryn Giovanna Kent" and concatenate them.
+snyntnntnntn
+Therefore, the answer issnyntnntnntn
+pred_before : snyntnntnntn
+pred_after : snyntnntnntn
+pred : snyntnntnntn
+GT : snat
+*************************
+*************************
+141st data
+Take the last letters of each words in "Carole William Tiffany Hilary" and concatenate them.
+The last letters of each word in "Carole William Tiffany Hilary" are "e, m, y, y." 
+
+Concatenating them together, we get "emyy."
+Therefore, the answer is"emyy."
+pred_before : "emyy."
+pred_after : emyy
+pred : emyy
+GT : emyy
+*************************
+*************************
+142st data
+Take the last letters of each words in "Alexa Pilar Rod Nicola" and concatenate them.
+aRdN
+Therefore, the answer isaRdN
+pred_before : aRdN
+pred_after : aRdN
+pred : aRdN
+GT : arda
+*************************
+*************************
+143st data
+Take the last letters of each words in "Lorena Shana Priscilla Summer" and concatenate them.
+The last letters of each word in "Lorena Shana Priscilla Summer" are "a a a a r". 
+
+Concatenating them gives us the word "aar".
+Therefore, the answer is"aar".
+pred_before : "aar".
+pred_after : aar
+pred : aar
+GT : aaar
+*************************
+*************************
+144st data
+Take the last letters of each words in "Irvin Brittney Vince Lucas" and concatenate them.
+snyecas
+Therefore, the answer issnyecas.
+pred_before : snyecas.
+pred_after : snyecas
+pred : snyecas
+GT : nyes
+*************************
+*************************
+145st data
+Take the last letters of each words in "Pretty Jada Sarita Allen" and concatenate them.
+The last letters of each word in "Pretty Jada Sarita Allen" are: y, a, a, n.
+
+Concatenating them together, we get: yaan.
+Therefore, the answer isyaan.
+pred_before : yaan.
+pred_after : yaan
+pred : yaan
+GT : yaan
+*************************
+*************************
+146st data
+Take the last letters of each words in "Liliana Quincy Bart Makayla" and concatenate them.
+a y a a a
+Therefore, the answer isayaaa
+pred_before : ayaaa
+pred_after : ayaaa
+pred : ayaaa
+GT : ayta
+*************************
+*************************
+147st data
+Take the last letters of each words in "Ruben Bernardo Ariel Shelley" and concatenate them.
+n o o y e y
+Therefore, the answer isnooey
+pred_before : nooey
+pred_after : nooey
+pred : nooey
+GT : noly
+*************************
+*************************
+148st data
+Take the last letters of each words in "Jose Luis Kiara Arun Josefina" and concatenate them.
+The last letters of each word in "Jose Luis Kiara Arun Josefina" are "e s a n a". 
+
+When concatenated, they form the word "esana".
+Therefore, the answer is"esana".
+pred_before : "esana".
+pred_after : esana
+pred : esana
+GT : sana
+*************************
+*************************
+149st data
+Take the last letters of each words in "Kristi Eduardo Angelo Clare" and concatenate them.
+The last letters of each word in "Kristi Eduardo Angelo Clare" are "i o o e e e e". Concatenating them gives us the word "iooeee".
+Therefore, the answer is"iooeee".
+pred_before : "iooeee".
+pred_after : iooeee
+pred : iooeee
+GT : iooe
+*************************
+*************************
+150st data
+Take the last letters of each words in "Sherri Genesis Jeffrey Samir" and concatenate them.
+iessyiriririr
+Therefore, the answer isiessyiriririr.
+pred_before : iessyiriririr.
+pred_after : iessyiriririr
+pred : iessyiriririr
+GT : isyr
+*************************
+*************************
+151st data
+Take the last letters of each words in "Gisela Gerald Mackenzie Ashley" and concatenate them.
+a d a y
+Therefore, the answer isaday
+pred_before : aday
+pred_after : aday
+pred : aday
+GT : adey
+*************************
+*************************
+152st data
+Take the last letters of each words in "Deanna Terri Gabriela Jonah" and concatenate them.
+aarielaah
+Therefore, the answer isaarielaah
+pred_before : aarielaah
+pred_after : aarielaah
+pred : aarielaah
+GT : aiah
+*************************
+*************************
+153st data
+Take the last letters of each words in "Brandon Ivonne Jefferson Isabella" and concatenate them.
+nneoneneonella
+Therefore, the answer isnneoneneonella
+pred_before : nneoneneonella
+pred_after : nneoneneonella
+pred : nneoneneonella
+GT : nena
+*************************
+*************************
+154st data
+Take the last letters of each words in "Rogelio Freddy Ivan Madeleine" and concatenate them.
+The last letters of each word in "Rogelio Freddy Ivan Madeleine" are "o y n e". 
+
+Concatenating them gives us the word "onye".
+Therefore, the answer is"onye".
+pred_before : "onye".
+pred_after : onye
+pred : onye
+GT : oyne
+*************************
+*************************
+155st data
+Take the last letters of each words in "Orlando Colby Julius Ofelia" and concatenate them.
+The last letters of each word in "Orlando Colby Julius Ofelia" are: o, y, s, a. 
+
+Concatenating them together, we get "oysa".
+Therefore, the answer is"oysa".
+pred_before : "oysa".
+pred_after : oysa
+pred : oysa
+GT : oysa
+*************************
+*************************
+156st data
+Take the last letters of each words in "Conrad Marcella Annette Esteban" and concatenate them.
+dlnnnaan
+Therefore, the answer isdlnnnaan
+pred_before : dlnnnaan
+pred_after : dlnnnaan
+pred : dlnnnaan
+GT : daen
+*************************
+*************************
+157st data
+Take the last letters of each words in "Amparo Gianna Dion Tessa" and concatenate them.
+The last letters of each word in "Amparo Gianna Dion Tessa" are "o a n a". 
+
+When concatenated, they form the word "oana".
+Therefore, the answer is"oana".
+pred_before : "oana".
+pred_after : oana
+pred : oana
+GT : oana
+*************************
+*************************
+158st data
+Take the last letters of each words in "Glen Ariana Reggie Polo" and concatenate them.
+The last letters of each word in "Glen Ariana Reggie Polo" are: n, a, e, o. 
+
+Concatenating them together, we get: naeo.
+Therefore, the answer isnaeo.
+pred_before : naeo.
+pred_after : naeo
+pred : naeo
+GT : naeo
+*************************
+*************************
+159st data
+Take the last letters of each words in "Memo Joey Phil Samuel" and concatenate them.
+oypmuel
+Therefore, the answer isoypmuel
+pred_before : oypmuel
+pred_after : oypmuel
+pred : oypmuel
+GT : oyll
+*************************
+*************************
+160st data
+Take the last letters of each words in "Jorge Natalia Bryant Kiran" and concatenate them.
+ealnntn
+Therefore, the answer isealnntn
+pred_before : ealnntn
+pred_after : ealnntn
+pred : ealnntn
+GT : eatn
+*************************
+*************************
+161st data
+Take the last letters of each words in "Annie Toño Sharon Delores" and concatenate them.
+e o o n o n s s
+Therefore, the answer iseoononss
+pred_before : eoononss
+pred_after : eoononss
+pred : eoononss
+GT : eons
+*************************
+*************************
+162st data
+Take the last letters of each words in "Silvia Carolina Stan Chuck" and concatenate them.
+The last letters of each word in "Silvia Carolina Stan Chuck" are: a, a, a, k. 
+
+Concatenating them, we get "aak".
+Therefore, the answer is"aak".
+pred_before : "aak".
+pred_after : aak
+pred : aak
+GT : aank
+*************************
+*************************
+163st data
+Take the last letters of each words in "Noelle Byron Jane Darin" and concatenate them.
+e n e n
+Therefore, the answer isenen
+pred_before : enen
+pred_after : enen
+pred : enen
+GT : enen
+*************************
+*************************
+164st data
+Take the last letters of each words in "Diego Val Vincent Stacie" and concatenate them.
+The last letters of each word in "Diego Val Vincent Stacie" are "o l t e e". Concatenating them gives us the word "oltee".
+Therefore, the answer is"oltee".
+pred_before : "oltee".
+pred_after : oltee
+pred : oltee
+GT : olte
+*************************
+*************************
+165st data
+Take the last letters of each words in "Myriam José Cecy Faisal" and concatenate them.
+mjeysl
+Therefore, the answer ismjeysl
+pred_before : mjeysl
+pred_after : mjeysl
+pred : mjeysl
+GT : méyl
+*************************
+*************************
+166st data
+Take the last letters of each words in "Braulio Staci Jocelyn Brittany" and concatenate them.
+The last letters of each word in "Braulio Staci Jocelyn Brittany" are "o i n y". 
+
+When concatenated, they form the word "oiny".
+Therefore, the answer is"oiny".
+pred_before : "oiny".
+pred_after : oiny
+pred : oiny
+GT : oiny
+*************************
+*************************
+167st data
+Take the last letters of each words in "Kristine Van Marisol Preston" and concatenate them.
+The last letters of each word in "Kristine Van Marisol Preston" are "e n e l n l n". Concatenating them gives the result "enelnln".
+Therefore, the answer is"enelnln".
+pred_before : "enelnln".
+pred_after : enelnln
+pred : enelnln
+GT : enln
+*************************
+*************************
+168st data
+Take the last letters of each words in "Daphne Lola Joanna Sheena" and concatenate them.
+The last letters of each word in "Daphne Lola Joanna Sheena" are "e a a a". Concatenating them gives us "eaaa".
+Therefore, the answer iseaaa
+pred_before : eaaa
+pred_after : eaaa
+pred : eaaa
+GT : eaaa
+*************************
+*************************
+169st data
+Take the last letters of each words in "Emiliano Jasmin Wade Vilma" and concatenate them.
+The last letters of each word in "Emiliano Jasmin Wade Vilma" are "o n e e a e a". When concatenated, they form the word "oneeaea".
+Therefore, the answer is"oneeaea"
+pred_before : "oneeaea"
+pred_after : oneeaea
+pred : oneeaea
+GT : onea
+*************************
+*************************
+170st data
+Take the last letters of each words in "Cristal Roxana Rajesh Danny" and concatenate them.
+The last letters of each word in "Cristal Roxana Rajesh Danny" are: l, a, a, h, y.
+
+Concatenating them, we get: laahy.
+Therefore, the answer is"laahy".
+pred_before : "laahy".
+pred_after : laahy
+pred : laahy
+GT : lahy
+*************************
+*************************
+171st data
+Take the last letters of each words in "Julia Kirsten Pam Adan" and concatenate them.
+an na ma na
+Therefore, the answer isanna mana
+pred_before : anna mana
+pred_after : annamana
+pred : annamana
+GT : anmn
+*************************
+*************************
+172st data
+Take the last letters of each words in "Wilma Margie Amber Sergio" and concatenate them.
+The last letters of each word in "Wilma Margie Amber Sergio" are "a e r o o". Concatenating them gives the word "aeroo".
+Therefore, the answer is"aeroo".
+pred_before : "aeroo".
+pred_after : aeroo
+pred : aeroo
+GT : aero
+*************************
+*************************
+173st data
+Take the last letters of each words in "Jeannie Kenneth Porfirio Ezequiel" and concatenate them.
+e n y o l
+Therefore, the answer isenyol
+pred_before : enyol
+pred_after : enyol
+pred : enyol
+GT : ehol
+*************************
+*************************
+174st data
+Take the last letters of each words in "Carlitos Damaris Nikhil Jennie" and concatenate them.
+ssoirhie
+Therefore, the answer isssoirhie
+pred_before : ssoirhie
+pred_after : ssoirhie
+pred : ssoirhie
+GT : ssle
+*************************
+*************************
+175st data
+Take the last letters of each words in "Guille Lisa Harvey Gina" and concatenate them.
+The last letters of each word in "Guille Lisa Harvey Gina" are "e a y a". Concatenating them gives us the word "eaya".
+Therefore, the answer iseaya
+pred_before : eaya
+pred_after : eaya
+pred : eaya
+GT : eaya
+*************************
+*************************
+176st data
+Take the last letters of each words in "María Fredy Bridgette Kenya" and concatenate them.
+a y e a
+Therefore, the answer isayea
+pred_before : ayea
+pred_after : ayea
+pred : ayea
+GT : ayea
+*************************
+*************************
+177st data
+Take the last letters of each words in "Tere Niko Keith Conner" and concatenate them.
+The last letters of each word in "Tere Niko Keith Conner" are: e, o, h, r, o, r.
+
+Concatenating them, we get: eohror.
+Therefore, the answer iseohror.
+pred_before : eohror.
+pred_after : eohror
+pred : eohror
+GT : eohr
+*************************
+*************************
+178st data
+Take the last letters of each words in "Otto Marjorie Leonor Esther" and concatenate them.
+The last letters of each word in "Otto Marjorie Leonor Esther" are: o, e, r, r, e, r.
+
+Concatenating them, we get: "oerrer".
+Therefore, the answer is"oerrer".
+pred_before : "oerrer".
+pred_after : oerrer
+pred : oerrer
+GT : oerr
+*************************
+*************************
+179st data
+Take the last letters of each words in "Paris Jimmie Andrew Ramón" and concatenate them.
+smeedrewon
+Therefore, the answer issmeedrewon.
+pred_before : smeedrewon.
+pred_after : smeedrewon
+pred : smeedrewon
+GT : sewn
+*************************
+*************************
+180st data
+Take the last letters of each words in "Constance Nicholas Will Love" and concatenate them.
+The last letters of each word in "Constance Nicholas Will Love" are: e, s, s, e, s, l, e.
+
+Concatenating them together, we get: essesle.
+Therefore, the answer is"essesle".
+pred_before : "essesle".
+pred_after : essesle
+pred : essesle
+GT : esle
+*************************
+*************************
+181st data
+Take the last letters of each words in "Ramona Lucy Gail Octavio" and concatenate them.
+a y l o
+Therefore, the answer isaylo
+pred_before : aylo
+pred_after : aylo
+pred : aylo
+GT : aylo
+*************************
+*************************
+182st data
+Take the last letters of each words in "Bruce Dena Kyla Robbie" and concatenate them.
+eaeay
+Therefore, the answer iseaeay
+pred_before : eaeay
+pred_after : eaeay
+pred : eaeay
+GT : eaae
+*************************
+*************************
+183st data
+Take the last letters of each words in "Glenda Beverly Agustin Igor" and concatenate them.
+a y n r
+Therefore, the answer isaynr
+pred_before : aynr
+pred_after : aynr
+pred : aynr
+GT : aynr
+*************************
+*************************
+184st data
+Take the last letters of each words in "Faustino Lamar Fransisco Rina" and concatenate them.
+The last letters of each word in "Faustino Lamar Francisco Rina" are: o, r, o, o, a. 
+
+Concatenating them, we get "orooa".
+Therefore, the answer is"orooa".
+pred_before : "orooa".
+pred_after : orooa
+pred : orooa
+GT : oroa
+*************************
+*************************
+185st data
+Take the last letters of each words in "Jeremiah Kelley Josue Veronica" and concatenate them.
+yehjeyuea
+Therefore, the answer isyehjeyuea
+pred_before : yehjeyuea
+pred_after : yehjeyuea
+pred : yehjeyuea
+GT : hyea
+*************************
+*************************
+186st data
+Take the last letters of each words in "Beatriz Gillian Coco Vivian" and concatenate them.
+zlnonon
+Therefore, the answer iszlnonon
+pred_before : zlnonon
+pred_after : zlnonon
+pred : zlnonon
+GT : znon
+*************************
+*************************
+187st data
+Take the last letters of each words in "Nico Lorenzo Johanna Teresita" and concatenate them.
+o o a a a
+Therefore, the answer isooaaa
+pred_before : ooaaa
+pred_after : ooaaa
+pred : ooaaa
+GT : ooaa
+*************************
+*************************
+188st data
+Take the last letters of each words in "Craig Dillon Troy Griselda" and concatenate them.
+The last letters of each word in "Craig Dillon Troy Griselda" are "g n n y a". 
+
+Concatenating them gives us the word "gnnya".
+Therefore, the answer is"gnnya".
+pred_before : "gnnya".
+pred_after : gnnya
+pred : gnnya
+GT : gnya
+*************************
+*************************
+189st data
+Take the last letters of each words in "Julio Sidney Aiden Shay" and concatenate them.
+oynay
+Therefore, the answer isoynay
+pred_before : oynay
+pred_after : oynay
+pred : oynay
+GT : oyny
+*************************
+*************************
+190st data
+Take the last letters of each words in "Angelique Marissa Phyllis Bonnie" and concatenate them.
+equeisieonnie
+Therefore, the answer isequeisieonnie
+pred_before : equeisieonnie
+pred_after : equeisieonnie
+pred : equeisieonnie
+GT : ease
+*************************
+*************************
+191st data
+Take the last letters of each words in "Letty Aimee Elvia Ted" and concatenate them.
+The last letters of each word in "Letty Aimee Elvia Ted" are: y e a e a d
+
+Concatenating them together, we get: yeaeadd
+Therefore, the answer isyeaeadd
+pred_before : yeaeadd
+pred_after : yeaeadd
+pred : yeaeadd
+GT : yead
+*************************
+*************************
+192st data
+Take the last letters of each words in "Paulo Tatyana Bernice Raúl" and concatenate them.
+oanecúl
+Therefore, the answer isoanecúl.
+pred_before : oanecúl.
+pred_after : oanecúl
+pred : oanecúl
+GT : oael
+*************************
+*************************
+193st data
+Take the last letters of each words in "Amanda Geoff Belinda Gaurav" and concatenate them.
+adafv
+Therefore, the answer isadafv
+pred_before : adafv
+pred_after : adafv
+pred : adafv
+GT : afav
+*************************
+*************************
+194st data
+Take the last letters of each words in "Suzanne Julissa Chino America" and concatenate them.
+e n a o a
+Therefore, the answer isenaoa
+pred_before : enaoa
+pred_after : enaoa
+pred : enaoa
+GT : eaoa
+*************************
+*************************
+195st data
+Take the last letters of each words in "Logan Ely Abbie Colleen" and concatenate them.
+nelyeieen
+Therefore, the answer isnelyeieen
+pred_before : nelyeieen
+pred_after : nelyeieen
+pred : nelyeieen
+GT : nyen
+*************************
+*************************
+196st data
+Take the last letters of each words in "Kristy Brandi Lizeth Petra" and concatenate them.
+ydnirbhtezartep
+Therefore, the answer isydnirbhtezartep
+pred_before : ydnirbhtezartep
+pred_after : ydnirbhtezartep
+pred : ydnirbhtezartep
+GT : yiha
+*************************
+*************************
+197st data
+Take the last letters of each words in "Anastasia Thelma Sheri Rosita" and concatenate them.
+The last letters of each word in "Anastasia Thelma Sheri Rosita" are "a a i i a a i a". 
+
+When concatenated, they form the word "aaiiaia".
+Therefore, the answer is"aaiiaia".
+pred_before : "aaiiaia".
+pred_after : aaiiaia
+pred : aaiiaia
+GT : aaia
+*************************
+*************************
+198st data
+Take the last letters of each words in "Jordan Yoni Lawrence Aura" and concatenate them.
+The last letters of each word in "Jordan Yoni Lawrence Aura" are: n, i, e, a. 
+
+Concatenating them together, we get "niea".
+Therefore, the answer is"niea".
+pred_before : "niea".
+pred_after : niea
+pred : niea
+GT : niea
+*************************
+*************************
+199st data
+Take the last letters of each words in "Sid Isabelle Jackson Heidy" and concatenate them.
+dseynidy
+Therefore, the answer isdseynidy
+pred_before : dseynidy
+pred_after : dseynidy
+pred : dseynidy
+GT : deny
+*************************
+*************************
+200st data
+Take the last letters of each words in "Vijay Sherrie Doug Suzy" and concatenate them.
+yeez
+Therefore, the answer isyeez
+pred_before : yeez
+pred_after : yeez
+pred : yeez
+GT : yegy
+*************************
+*************************
+201st data
+Take the last letters of each words in "Cristina Saad Bridget Katie" and concatenate them.
+adtdetie
+Therefore, the answer isadtdetie
+pred_before : adtdetie
+pred_after : adtdetie
+pred : adtdetie
+GT : adte
+*************************
+*************************
+202st data
+Take the last letters of each words in "Dalila Emily Casey Clifford" and concatenate them.
+The last letters of each word in "Dalila Emily Casey Clifford" are "a y y d d". Concatenating them gives us "ayydd".
+Therefore, the answer is"ayydd".
+pred_before : "ayydd".
+pred_after : ayydd
+pred : ayydd
+GT : ayyd
+*************************
+*************************
+203st data
+Take the last letters of each words in "Shawn Tracie Lynne Leila" and concatenate them.
+The last letters of each word in "Shawn Tracie Lynne Leila" are "n e e a". 
+
+Concatenating them gives us the word "nee".
+Therefore, the answer is"nee".
+pred_before : "nee".
+pred_after : nee
+pred : nee
+GT : neea
+*************************
+*************************
+204st data
+Take the last letters of each words in "Rubi Daisy Yadira Santa" and concatenate them.
+The last letters of each word in "Rubi Daisy Yadira Santa" are: i, y, a, a. 
+
+Concatenating them together, we get "iyaa".
+Therefore, the answer is"iyaa".
+pred_before : "iyaa".
+pred_after : iyaa
+pred : iyaa
+GT : iyaa
+*************************
+*************************
+205st data
+Take the last letters of each words in "Dany Hilda Butch Mahesh" and concatenate them.
+The last letters of each word in "Dany Hilda Butch Mahesh" are "y a h h h h". 
+
+When concatenated, they form the word "yahhhh".
+Therefore, the answer is"yahhhh".
+pred_before : "yahhhh".
+pred_after : yahhhh
+pred : yahhhh
+GT : yahh
+*************************
+*************************
+206st data
+Take the last letters of each words in "Jermaine Pat Tammie Olivia" and concatenate them.
+eetmeylia
+Therefore, the answer iseetmeylia
+pred_before : eetmeylia
+pred_after : eetmeylia
+pred : eetmeylia
+GT : etea
+*************************
+*************************
+207st data
+Take the last letters of each words in "Seth Dario Anne Jodie" and concatenate them.
+The last letters of each word in "Seth Dario Anne Jodie" are "h o e e". 
+
+When concatenated, they form the word "hoe".
+Therefore, the answer is"hoe".
+pred_before : "hoe".
+pred_after : hoe
+pred : hoe
+GT : hoee
+*************************
+*************************
+208st data
+Take the last letters of each words in "Issa Kendra Ignacio Henry" and concatenate them.
+a a o y
+Therefore, the answer isa a o y
+pred_before : a a o y
+pred_after : aaoy
+pred : aaoy
+GT : aaoy
+*************************
+*************************
+209st data
+Take the last letters of each words in "Johan Damien Serena Grace" and concatenate them.
+nneemace
+Therefore, the answer isnneemace
+pred_before : nneemace
+pred_after : nneemace
+pred : nneemace
+GT : nnae
+*************************
+*************************
+210st data
+Take the last letters of each words in "Bri Roger Eve Diana" and concatenate them.
+The last letters of each word in "Bri Roger Eve Diana" are "i r e a". Concatenating them gives us the word "irea".
+Therefore, the answer is"irea".
+pred_before : "irea".
+pred_after : irea
+pred : irea
+GT : irea
+*************************
+*************************
+211st data
+Take the last letters of each words in "Ale Gaspar Sonny Simon" and concatenate them.
+The last letters of each word in "Ale Gaspar Sonny Simon" are: e, r, y, n, n, n. 
+
+Concatenating them, we get "erynnn".
+Therefore, the answer is"erynnn".
+pred_before : "erynnn".
+pred_after : erynnn
+pred : erynnn
+GT : eryn
+*************************
+*************************
+212st data
+Take the last letters of each words in "Altagracia Howard Patti Douglas" and concatenate them.
+aiaowdsg
+Therefore, the answer isaiaowdsg
+pred_before : aiaowdsg
+pred_after : aiaowdsg
+pred : aiaowdsg
+GT : adis
+*************************
+*************************
+213st data
+Take the last letters of each words in "Guillermo Gerry Lizbeth Charly" and concatenate them.
+The last letters of each word in "Guillermo Gerry Lizbeth Charly" are "o y h y". Concatenating them gives us "oyhy".
+Therefore, the answer is"oyhy".
+pred_before : "oyhy".
+pred_after : oyhy
+pred : oyhy
+GT : oyhy
+*************************
+*************************
+214st data
+Take the last letters of each words in "Marcia Belen Reyna Britney" and concatenate them.
+aenay
+Therefore, the answer isaenay.
+pred_before : aenay.
+pred_after : aenay
+pred : aenay
+GT : anay
+*************************
+*************************
+215st data
+Take the last letters of each words in "Sonya Eddy Carol Yung" and concatenate them.
+aydylgn
+Therefore, the answer isaydylgn.
+pred_before : aydylgn.
+pred_after : aydylgn
+pred : aydylgn
+GT : aylg
+*************************
+*************************
+216st data
+Take the last letters of each words in "June Robin Josie Bo" and concatenate them.
+The last letters of each word in "June Robin Josie Bo" are "e n e i o o". Concatenating them gives us the word "enioo".
+Therefore, the answer is"enioo".
+pred_before : "enioo".
+pred_after : enioo
+pred : enioo
+GT : eneo
+*************************
+*************************
+217st data
+Take the last letters of each words in "Meagan Naomi Israel Marie" and concatenate them.
+n, i, l, e, m
+Therefore, the answer is"nilem"
+pred_before : "nilem"
+pred_after : nilem
+pred : nilem
+GT : nile
+*************************
+*************************
+218st data
+Take the last letters of each words in "Alec Arianna Corina Juancarlos" and concatenate them.
+cnnos
+Therefore, the answer iscnnos
+pred_before : cnnos
+pred_after : cnnos
+pred : cnnos
+GT : caas
+*************************
+*************************
+219st data
+Take the last letters of each words in "Todd Joni Gil Fran" and concatenate them.
+dnniln
+Therefore, the answer isdnniln
+pred_before : dnniln
+pred_after : dnniln
+pred : dnniln
+GT : diln
+*************************
+*************************
+220st data
+Take the last letters of each words in "Vicki Dwight Johnson Alexandra" and concatenate them.
+The last letters of each word in "Vicki Dwight Johnson Alexandra" are: i, t, n, a. 
+
+Concatenating them together, we get "itna".
+Therefore, the answer is"itna".
+pred_before : "itna".
+pred_after : itna
+pred : itna
+GT : itna
+*************************
+*************************
+221st data
+Take the last letters of each words in "Chance Valentin Micah Clara" and concatenate them.
+eentncaahara
+Therefore, the answer iseentncaahara
+pred_before : eentncaahara
+pred_after : eentncaahara
+pred : eentncaahara
+GT : enha
+*************************
+*************************
+222st data
+Take the last letters of each words in "Elizabeth Mitch Brooke Jordyn" and concatenate them.
+hthnkrn
+Therefore, the answer ishthnkrn
+pred_before : hthnkrn
+pred_after : hthnkrn
+pred : hthnkrn
+GT : hhen
+*************************
+*************************
+223st data
+Take the last letters of each words in "Mia Art Samantha Lety" and concatenate them.
+aetahay
+Therefore, the answer isaetahay
+pred_before : aetahay
+pred_after : aetahay
+pred : aetahay
+GT : atay
+*************************
+*************************
+224st data
+Take the last letters of each words in "Juan Jose Dalia Destiny Amelia" and concatenate them.
+The last letters of each word are: n, e, a, y, a. 
+
+Concatenating them, we get "neya".
+Therefore, the answer is"neya".
+pred_before : "neya".
+pred_after : neya
+pred : neya
+GT : eaya
+*************************
+*************************
+225st data
+Take the last letters of each words in "Donovan Lonnie Jairo Mariah" and concatenate them.
+The last letters of each word in "Donovan Lonnie Jairo Mariah" are: n, n, o, h.
+
+Concatenating them together, we get: nnoh.
+Therefore, the answer isnnoh.
+pred_before : nnoh.
+pred_after : nnoh
+pred : nnoh
+GT : neoh
+*************************
+*************************
+226st data
+Take the last letters of each words in "Renata Mariela Mona Kristin" and concatenate them.
+aalaonan
+Therefore, the answer isaalaonan.
+pred_before : aalaonan.
+pred_after : aalaonan
+pred : aalaonan
+GT : aaan
+*************************
+*************************
+227st data
+Take the last letters of each words in "Cassie Clifton Erik Everardo" and concatenate them.
+The last letters of each word in "Cassie Clifton Erik Everardo" are "e, n, k, o". 
+
+Concatenating them together, we get "enko".
+Therefore, the answer is"enko".
+pred_before : "enko".
+pred_after : enko
+pred : enko
+GT : enko
+*************************
+*************************
+228st data
+Take the last letters of each words in "Lewis Azucena Kai Ravi" and concatenate them.
+The last letters of each word in "Lewis Azucena Kai Ravi" are "s a a i i". 
+
+When concatenated, they form the word "saaii".
+Therefore, the answer is"saaii".
+pred_before : "saaii".
+pred_after : saaii
+pred : saaii
+GT : saii
+*************************
+*************************
+229st data
+Take the last letters of each words in "Yajaira Terrell Adam Lexie" and concatenate them.
+The last letters of each word in "Yajaira Terrell Adam Lexie" are "a l m e". 
+
+When concatenated, they form the word "alme".
+Therefore, the answer is"alme".
+pred_before : "alme".
+pred_after : alme
+pred : alme
+GT : alme
+*************************
+*************************
+230st data
+Take the last letters of each words in "Clayton Edison Debbie Elvira" and concatenate them.
+nndnra
+Therefore, the answer isnndnra
+pred_before : nndnra
+pred_after : nndnra
+pred : nndnra
+GT : nnea
+*************************
+*************************
+231st data
+Take the last letters of each words in "Ira Paola Jose Antonio Maria" and concatenate them.
+The last letters of each word in "Ira Paola Jose Antonio Maria" are "a a e o a a". 
+
+When concatenated, they form the word "aaeoa".
+Therefore, the answer is"aaeoa".
+pred_before : "aaeoa".
+pred_after : aaeoa
+pred : aaeoa
+GT : aaoa
+*************************
+*************************
+232st data
+Take the last letters of each words in "Roberta Mauro Clint Marcela" and concatenate them.
+The last letters of each word are: a o t a a
+
+Concatenating them, we get: aotaa
+Therefore, the answer isaotaa
+pred_before : aotaa
+pred_after : aotaa
+pred : aotaa
+GT : aota
+*************************
+*************************
+233st data
+Take the last letters of each words in "Yan Eunice Joseph Hugh" and concatenate them.
+n e e h h
+Therefore, the answer isneehh
+pred_before : neehh
+pred_after : neehh
+pred : neehh
+GT : nehh
+*************************
+*************************
+234st data
+Take the last letters of each words in "Frank Trevor Al Gabriella" and concatenate them.
+The last letters of each word in "Frank Trevor Al Gabriella" are: k, r, l, a. 
+
+Concatenating them together, we get "krla".
+Therefore, the answer is"krla".
+pred_before : "krla".
+pred_after : krla
+pred : krla
+GT : krla
+*************************
+*************************
+235st data
+Take the last letters of each words in "Michele Karan Abraham Ellen" and concatenate them.
+e n a n n
+Therefore, the answer isenann
+pred_before : enann
+pred_after : enann
+pred : enann
+GT : enmn
+*************************
+*************************
+236st data
+Take the last letters of each words in "Angeles Richard Luciana Darlene" and concatenate them.
+s e c e e e e e
+Therefore, the answer isseceeeee
+pred_before : seceeeee
+pred_after : seceeeee
+pred : seceeeee
+GT : sdae
+*************************
+*************************
+237st data
+Take the last letters of each words in "Debi Raymond Luis Federico" and concatenate them.
+The last letters of each word in "Debi Raymond Luis Federico" are: i, d, d, o, d, s, s, o. 
+
+Concatenating them, we get "iddodso".
+Therefore, the answer is"iddodso".
+pred_before : "iddodso".
+pred_after : iddodso
+pred : iddodso
+GT : idso
+*************************
+*************************
+238st data
+Take the last letters of each words in "Andres Mary Ann Sydney Dina" and concatenate them.
+syaannd
+Therefore, the answer issyaannd
+pred_before : syaannd
+pred_after : syaannd
+pred : syaannd
+GT : snya
+*************************
+*************************
+239st data
+Take the last letters of each words in "Jaime Brad Levi Emmanuel" and concatenate them.
+The last letters of each word in "Jaime Brad Levi Emmanuel" are: e, d, i, l, l, l, l. 
+
+Concatenating them, we get "edillll".
+Therefore, the answer is"edillll".
+pred_before : "edillll".
+pred_after : edillll
+pred : edillll
+GT : edil
+*************************
+*************************
+240st data
+Take the last letters of each words in "Gerson Roxanne Deborah Nathaniel" and concatenate them.
+nexeal
+Therefore, the answer isnexeal
+pred_before : nexeal
+pred_after : nexeal
+pred : nexeal
+GT : nehl
+*************************
+*************************
+241st data
+Take the last letters of each words in "Wilson Abbey Harold Nelly" and concatenate them.
+yehly
+Therefore, the answer isyehly.
+pred_before : yehly.
+pred_after : yehly
+pred : yehly
+GT : nydy
+*************************
+*************************
+242st data
+Take the last letters of each words in "Dustin Luiz Rolando Connor" and concatenate them.
+nuzodrnr
+Therefore, the answer isnuzodrnr
+pred_before : nuzodrnr
+pred_after : nuzodrnr
+pred : nuzodrnr
+GT : nzor
+*************************
+*************************
+243st data
+Take the last letters of each words in "Carmelo Tony Susan Sara" and concatenate them.
+The last letters of each word in "Carmelo Tony Susan Sara" are "o y n a a". When concatenated, they form the word "onyaa".
+Therefore, the answer is"onyaa".
+pred_before : "onyaa".
+pred_after : onyaa
+pred : onyaa
+GT : oyna
+*************************
+*************************
+244st data
+Take the last letters of each words in "Nery Cindy Jess Chris" and concatenate them.
+yycshris
+Therefore, the answer isyycshris
+pred_before : yycshris
+pred_after : yycshris
+pred : yycshris
+GT : yyss
+*************************
+*************************
+245st data
+Take the last letters of each words in "Arnold Aidan Ally Ami" and concatenate them.
+dndnlymi
+Therefore, the answer isdndnlymi
+pred_before : dndnlymi
+pred_after : dndnlymi
+pred : dndnlymi
+GT : dnyi
+*************************
+*************************
+246st data
+Take the last letters of each words in "Meg Andrey Gerard Lilia" and concatenate them.
+gdydld
+Therefore, the answer isgdydld
+pred_before : gdydld
+pred_after : gdydld
+pred : gdydld
+GT : gyda
+*************************
+*************************
+247st data
+Take the last letters of each words in "Lilian Ian Bryce Aracely" and concatenate them.
+The last letters of each word in "Lilian Ian Bryce Aracely" are "n n e y y". 
+
+When concatenated, they form the word "nneyy".
+Therefore, the answer isnneyy
+pred_before : nneyy
+pred_after : nneyy
+pred : nneyy
+GT : nney
+*************************
+*************************
+248st data
+Take the last letters of each words in "Trish Vero Victor Clemente" and concatenate them.
+The last letters of each word in "Trish Vero Victor Clemente" are:
+
+h, o, r, e, o, e
+
+Concatenating them, we get: horeoe.
+Therefore, the answer ishoreoe.
+pred_before : horeoe.
+pred_after : horeoe
+pred : horeoe
+GT : hore
+*************************
+*************************
+249st data
+Take the last letters of each words in "Estrella Madison Paco Rj" and concatenate them.
+The last letters of each word are: a, n, o, o, j. 
+
+Concatenating them, we get "anooj".
+Therefore, the answer is"anooj".
+pred_before : "anooj".
+pred_after : anooj
+pred : anooj
+GT : anoj
+*************************
+*************************
+250st data
+Take the last letters of each words in "Kali Jeanette Tess Devin" and concatenate them.
+The last letters of each word in "Kali Jeanette Tess Devin" are "i e e s n". 
+
+Concatenating them gives us the word "iesn".
+Therefore, the answer is"iesn".
+pred_before : "iesn".
+pred_after : iesn
+pred : iesn
+GT : iesn
+*************************
+*************************
+251st data
+Take the last letters of each words in "Ubaldo Katrina Francis Lynn" and concatenate them.
+The last letters of each word in "Ubaldo Katrina Francis Lynn" are: o, a, s, n, n. 
+
+Concatenating them, we get: "oasn".
+Therefore, the answer is"oasn".
+pred_before : "oasn".
+pred_after : oasn
+pred : oasn
+GT : oasn
+*************************
+*************************
+252st data
+Take the last letters of each words in "Leticia Jacinto Natasha Raphael" and concatenate them.
+The last letters of each word in "Leticia Jacinto Natasha Raphael" are: a, a, a, o, a, a, l.
+
+Concatenating them, we get: "aaaoaal".
+Therefore, the answer is"aaaoaal".
+pred_before : "aaaoaal".
+pred_after : aaaoaal
+pred : aaaoaal
+GT : aoal
+*************************
+*************************
+253st data
+Take the last letters of each words in "Miguel Angel Saul Brady Darryl" and concatenate them.
+l l l y l
+Therefore, the answer isllyl
+pred_before : llyl
+pred_after : llyl
+pred : llyl
+GT : llyl
+*************************
+*************************
+254st data
+Take the last letters of each words in "Mya Fernando Bubba Tommy" and concatenate them.
+The last letters of each word in "Mya Fernando Bubba Tommy" are "a o a y". Concatenating them gives us "aoay".
+Therefore, the answer is"aoay".
+pred_before : "aoay".
+pred_after : aoay
+pred : aoay
+GT : aoay
+*************************
+*************************
+255st data
+Take the last letters of each words in "Julieta Zachary Jared Tyson" and concatenate them.
+ahtyedn
+Therefore, the answer isahtyedn
+pred_before : ahtyedn
+pred_after : ahtyedn
+pred : ahtyedn
+GT : aydn
+*************************
+*************************
+256st data
+Take the last letters of each words in "Salvatore Gustavo Jill Celeste" and concatenate them.
+eoeleste
+Therefore, the answer iseoeleste
+pred_before : eoeleste
+pred_after : eoeleste
+pred : eoeleste
+GT : eole
+*************************
+*************************
+257st data
+Take the last letters of each words in "Pauline Kerry Jeannette Hope" and concatenate them.
+The last letters of each word in "Pauline Kerry Jeannette Hope" are: e, y, e, e, e, t, e, e, e, p, e.
+
+Concatenating them, we get: eyeeteep
+Therefore, the answer iseyeeteep
+pred_before : eyeeteep
+pred_after : eyeeteep
+pred : eyeeteep
+GT : eyee
+*************************
+*************************
+258st data
+Take the last letters of each words in "Conor Randall Oleg Stephanie" and concatenate them.
+r l e e
+Therefore, the answer isrlee
+pred_before : rlee
+pred_after : rlee
+pred : rlee
+GT : rlge
+*************************
+*************************
+259st data
+Take the last letters of each words in "Mauricio Lee Madi Lizzie" and concatenate them.
+The last letters of each word in "Mauricio Lee Madi Lizzie" are "o e i e e". 
+
+When concatenated, they form the word "oeiee".
+Therefore, the answer is"oeiee".
+pred_before : "oeiee".
+pred_after : oeiee
+pred : oeiee
+GT : oeie
+*************************
+*************************
+260st data
+Take the last letters of each words in "Dusty Yanet Hortencia Lili" and concatenate them.
+The last letters of each word in "Dusty Yanet Hortencia Lili" are "y t a i i". 
+
+When concatenated, they form the word "ytaii".
+Therefore, the answer is"ytaii".
+pred_before : "ytaii".
+pred_after : ytaii
+pred : ytaii
+GT : ytai
+*************************
+*************************
+261st data
+Take the last letters of each words in "Abdi Clyde Ana Maria Pepe" and concatenate them.
+The last letters of each word in "Abdi Clyde Ana Maria Pepe" are: i e a a e e e e
+
+When concatenated, they form the word: ieaeeeee
+Therefore, the answer isieaeeeee
+pred_before : ieaeeeee
+pred_after : ieaeeeee
+pred : ieaeeeee
+GT : ieae
+*************************
+*************************
+262st data
+Take the last letters of each words in "Barb Gage Kristian Asia" and concatenate them.
+The last letters of each word are: b, e, n, n, a. 
+
+Concatenating them, we get "benna".
+Therefore, the answer is"benna".
+pred_before : "benna".
+pred_after : benna
+pred : benna
+GT : bena
+*************************
+*************************
+263st data
+Take the last letters of each words in "Debora Jayson Donna Sai" and concatenate them.
+The last letters of each word in "Debora Jayson Donna Sai" are "a", "n", "a", "i". 
+
+Concatenating them together, we get "anai".
+Therefore, the answer is"anai".
+pred_before : "anai".
+pred_after : anai
+pred : anai
+GT : anai
+*************************
+*************************
+264st data
+Take the last letters of each words in "Noelia Cassidy Ashok Francisco" and concatenate them.
+ayhokco
+Therefore, the answer isayhokco
+pred_before : ayhokco
+pred_after : ayhokco
+pred : ayhokco
+GT : ayko
+*************************
+*************************
+265st data
+Take the last letters of each words in "Lupita Cyndi Kay Derrick" and concatenate them.
+The last letters of each word in "Lupita Cyndi Kay Derrick" are: a, i, a, k, k, y, c, y, d, k.
+
+Concatenating them together, we get: aiakkycydk.
+Therefore, the answer isaiakkycydk.
+pred_before : aiakkycydk.
+pred_after : aiakkycydk
+pred : aiakkycydk
+GT : aiyk
+*************************
+*************************
+266st data
+Take the last letters of each words in "Margarita Anabel Shaun Celina" and concatenate them.
+The last letters of each word in "Margarita Anabel Shaun Celina" are "a l n a". 
+
+When concatenated, they form the word "alna".
+Therefore, the answer is"alna".
+pred_before : "alna".
+pred_after : alna
+pred : alna
+GT : alna
+*************************
+*************************
+267st data
+Take the last letters of each words in "Lesley Luna Nadia Adriana" and concatenate them.
+yaaia
+Therefore, the answer isyaaia
+pred_before : yaaia
+pred_after : yaaia
+pred : yaaia
+GT : yaaa
+*************************
+*************************
+268st data
+Take the last letters of each words in "Arthur Shan Norman Manny" and concatenate them.
+The last letters of each word in "Arthur Shan Norman Manny" are: r, n, n, y. 
+
+Concatenating them, we get: rnnn
+Therefore, the answer isrnnn
+pred_before : rnnn
+pred_after : rnnn
+pred : rnnn
+GT : rnny
+*************************
+*************************
+269st data
+Take the last letters of each words in "Eugenia Kellie Quentin Mike" and concatenate them.
+The last letters of each word in "Eugenia Kellie Quentin Mike" are "a e n e e e e e". 
+
+Concatenating them gives us the word "aeneeee".
+Therefore, the answer is"aeneeee".
+pred_before : "aeneeee".
+pred_after : aeneeee
+pred : aeneeee
+GT : aene
+*************************
+*************************
+270st data
+Take the last letters of each words in "Hank Janine Frankie Isa" and concatenate them.
+The last letters of each word are: k, e, e, a. 
+
+Concatenating them, we get "kee-a".
+Therefore, the answer is"kee-a".
+pred_before : "kee-a".
+pred_after : kee-a
+pred : kee-a
+GT : keea
+*************************
+*************************
+271st data
+Take the last letters of each words in "Lazaro Ana Charlotte Precious" and concatenate them.
+The last letters of each word in "Lazaro Ana Charlotte Precious" are: o, a, e, s, o, a, e, s, s.
+
+Concatenating them together, we get: oaesoaess.
+Therefore, the answer isoaesoaess.
+pred_before : oaesoaess.
+pred_after : oaesoaess
+pred : oaesoaess
+GT : oaes
+*************************
+*************************
+272st data
+Take the last letters of each words in "Tim Candace Cecil Misael" and concatenate them.
+meele
+Therefore, the answer ismeele
+pred_before : meele
+pred_after : meele
+pred : meele
+GT : mell
+*************************
+*************************
+273st data
+Take the last letters of each words in "Steph Pablo Ceci Francine" and concatenate them.
+The last letters of each word in "Steph Pablo Ceci Francine" are: h, o, i, e, e. 
+
+Concatenating them, we get: hoiee.
+Therefore, the answer ishoiee.
+pred_before : hoiee.
+pred_after : hoiee
+pred : hoiee
+GT : hoie
+*************************
+*************************
+274st data
+Take the last letters of each words in "Janice Shelly Arnulfo Nestor" and concatenate them.
+eysor
+Therefore, the answer is"eysor".
+pred_before : "eysor".
+pred_after : eysor
+pred : eysor
+GT : eyor
+*************************
+*************************
+275st data
+Take the last letters of each words in "Gabi Dante Rafa Tricia" and concatenate them.
+The last letters of each word in "Gabi Dante Rafa Tricia" are "i e a a a". Concatenating them gives us "ieaaa".
+Therefore, the answer is"ieaaa".
+pred_before : "ieaaa".
+pred_after : ieaaa
+pred : ieaaa
+GT : ieaa
+*************************
+*************************
+276st data
+Take the last letters of each words in "Kristie Johnnie Marisa Derick" and concatenate them.
+eieieck
+Therefore, the answer iseieieck
+pred_before : eieieck
+pred_after : eieieck
+pred : eieieck
+GT : eeak
+*************************
+*************************
+277st data
+Take the last letters of each words in "Jr Meredith Zoe Robby" and concatenate them.
+The last letters of each word in "Jr Meredith Zoe Robby" are "r d h y". Concatenating them gives us the word "rdhy".
+Therefore, the answer is"rdhy".
+pred_before : "rdhy".
+pred_after : rdhy
+pred : rdhy
+GT : rhey
+*************************
+*************************
+278st data
+Take the last letters of each words in "Emanuel Cheyenne Perez Yvette" and concatenate them.
+e-n-l-e-y-e-e
+Therefore, the answer ise-n-l-e-y-e-e
+pred_before : e-n-l-e-y-e-e
+pred_after : e-n-l-e-y-e-e
+pred : e-n-l-e-y-e-e
+GT : leze
+*************************
+*************************
+279st data
+Take the last letters of each words in "Lucio Víctor Lester Allie" and concatenate them.
+The last letters of each word in "Lucio Víctor Lester Allie" are "o r r e e". 
+
+Concatenating them gives us the word "orree".
+Therefore, the answer is"orree".
+pred_before : "orree".
+pred_after : orree
+pred : orree
+GT : orre
+*************************
+*************************
+280st data
+Take the last letters of each words in "Arturo Dominick Christa Myles" and concatenate them.
+The last letters of each word in "Arturo Dominick Christa Myles" are: o, k, a, a, s, s.
+
+Concatenating them together, we get "okaass".
+Therefore, the answer is"okaass".
+pred_before : "okaass".
+pred_after : okaass
+pred : okaass
+GT : okas
+*************************
+*************************
+281st data
+Take the last letters of each words in "Angela Krista Cora Denisse" and concatenate them.
+a, a, a, e
+Therefore, the answer isaaae
+pred_before : aaae
+pred_after : aaae
+pred : aaae
+GT : aaae
+*************************
+*************************
+282st data
+Take the last letters of each words in "Larissa Shawna Alma Paulette" and concatenate them.
+awnaa
+Therefore, the answer isawnaa
+pred_before : awnaa
+pred_after : awnaa
+pred : awnaa
+GT : aaae
+*************************
+*************************
+283st data
+Take the last letters of each words in "Niki Graham Vernon Beau" and concatenate them.
+The last letters of each word in "Niki Graham Vernon Beau" are "i m n u". Concatenating them gives us the word "imnu".
+Therefore, the answer is"imnu".
+pred_before : "imnu".
+pred_after : imnu
+pred : imnu
+GT : imnu
+*************************
+*************************
+284st data
+Take the last letters of each words in "Sue Cassandra Cody Cali" and concatenate them.
+The last letters of each word in "Sue Cassandra Cody Cali" are "e a a y i". 
+
+Concatenating them gives us the word "eayi".
+Therefore, the answer iseayi
+pred_before : eayi
+pred_after : eayi
+pred : eayi
+GT : eayi
+*************************
+*************************
+285st data
+Take the last letters of each words in "Marcy Gonzalez Alice Arlene" and concatenate them.
+yseee
+Therefore, the answer isyseee
+pred_before : yseee
+pred_after : yseee
+pred : yseee
+GT : yzee
+*************************
+*************************
+286st data
+Take the last letters of each words in "Fernanda Magda Elmer Alvaro" and concatenate them.
+aagdareo
+Therefore, the answer isaagdareo
+pred_before : aagdareo
+pred_after : aagdareo
+pred : aagdareo
+GT : aaro
+*************************
+*************************
+287st data
+Take the last letters of each words in "Martin Sage Tanisha Rick" and concatenate them.
+The last letters of each word in "Martin Sage Tanisha Rick" are: n, e, a, a, k.
+
+Concatenating them, we get: neaak.
+Therefore, the answer isneaak.
+pred_before : neaak.
+pred_after : neaak
+pred : neaak
+GT : neak
+*************************
+*************************
+288st data
+Take the last letters of each words in "Latoya Eliseo Trina Melisa" and concatenate them.
+aoyonaeoina
+Therefore, the answer isaoyonaeoina.
+pred_before : aoyonaeoina.
+pred_after : aoyonaeoina
+pred : aoyonaeoina
+GT : aoaa
+*************************
+*************************
+289st data
+Take the last letters of each words in "Juan Manuel Benjamin Rory Rafael" and concatenate them.
+The last letters of each word in "Juan Manuel Benjamin Rory Rafael" are: n, l, n, n, n, n, y, l.
+
+Concatenating them, we get: nlnnnnyl.
+Therefore, the answer isnlnnnnyl.
+pred_before : nlnnnnyl.
+pred_after : nlnnnnyl
+pred : nlnnnnyl
+GT : lnyl
+*************************
+*************************
+290st data
+Take the last letters of each words in "Fred Nolan Johnathan Carson" and concatenate them.
+The last letters of each word in "Fred Nolan Johnathan Carson" are "d n n n". Concatenating them gives us the word "dnnn".
+Therefore, the answer isdnnn
+pred_before : dnnn
+pred_after : dnnn
+pred : dnnn
+GT : dnnn
+*************************
+*************************
+291st data
+Take the last letters of each words in "Jeremy Simone Alondra Wyatt" and concatenate them.
+yeeawt
+Therefore, the answer isyeeawt
+pred_before : yeeawt
+pred_after : yeeawt
+pred : yeeawt
+GT : yeat
+*************************
+*************************
+292st data
+Take the last letters of each words in "Jon Heath Reynaldo Catherine" and concatenate them.
+The last letters of each word in "Jon Heath Reynaldo Catherine" are "n t d o e o e". Concatenating them gives us the word "ntdoeoe".
+Therefore, the answer is"ntdoeoe".
+pred_before : "ntdoeoe".
+pred_after : ntdoeoe
+pred : ntdoeoe
+GT : nhoe
+*************************
+*************************
+293st data
+Take the last letters of each words in "Ernest Yuri Camila Ashlee" and concatenate them.
+The last letters of each word in "Ernest Yuri Camila Ashlee" are: t, i, a, e. 
+
+Concatenating them, we get "tiae".
+Therefore, the answer is"tiae".
+pred_before : "tiae".
+pred_after : tiae
+pred : tiae
+GT : tiae
+*************************
+*************************
+294st data
+Take the last letters of each words in "Salma Pj Gladis Monica" and concatenate them.
+The last letters of each word in "Salma Pj Gladis Monica" are: a, j, s, a. 
+
+Concatenating them together, we get "ajsa".
+Therefore, the answer is"ajsa".
+pred_before : "ajsa".
+pred_after : ajsa
+pred : ajsa
+GT : ajsa
+*************************
+*************************
+295st data
+Take the last letters of each words in "Lucky Mireya Jj Kc" and concatenate them.
+The last letters of each word in "Lucky Mireya Jj Kc" are "y a j c". Concatenating them gives us "yajc".
+Therefore, the answer isyajc
+pred_before : yajc
+pred_after : yajc
+pred : yajc
+GT : yajc
+*************************
+*************************
+296st data
+Take the last letters of each words in "Bj Rigo Nigel Christian" and concatenate them.
+The last letters of each word in "Bj Rigo Nigel Christian" are "j o l n n". 
+
+Concatenating them gives us the word "jolnn".
+Therefore, the answer is"jolnn".
+pred_before : "jolnn".
+pred_after : jolnn
+pred : jolnn
+GT : joln
+*************************
+*************************
+297st data
+Take the last letters of each words in "Elise Lupe Renee Noemi" and concatenate them.
+The last letters of each word in "Elise Lupe Renee Noemi" are "e e e i". 
+
+Concatenating them, we get "eeei".
+Therefore, the answer is"eeei".
+pred_before : "eeei".
+pred_after : eeei
+pred : eeei
+GT : eeei
+*************************
+*************************
+298st data
+Take the last letters of each words in "Pedro Leopoldo Tee Mar" and concatenate them.
+The last letters of each word in "Pedro Leopoldo Tee Mar" are: o, o, o, e, o, e, e, r.
+
+Concatenating them, we get: "oooeoer".
+Therefore, the answer is"oooeoer".
+pred_before : "oooeoer".
+pred_after : oooeoer
+pred : oooeoer
+GT : ooer
+*************************
+*************************
+299st data
+Take the last letters of each words in "Jesse Roderick Travis Rita" and concatenate them.
+The last letters of each word in "Jesse Roderick Travis Rita" are "e, d, k, s, a". Concatenating them gives us the word "edksa".
+Therefore, the answer is"edksa".
+pred_before : "edksa".
+pred_after : edksa
+pred : edksa
+GT : eksa
+*************************
+*************************
+300st data
+Take the last letters of each words in "Mickey Dom Lilly Eloy" and concatenate them.
+The last letters of each word in "Mickey Dom Lilly Eloy" are "y m y y". Concatenating them gives us "ymyy".
+Therefore, the answer is"ymyy".
+pred_before : "ymyy".
+pred_after : ymyy
+pred : ymyy
+GT : ymyy
+*************************
+*************************
+301st data
+Take the last letters of each words in "Kristopher Deb Jake Tammy" and concatenate them.
+The last letters of each word are: r, r, e, y. 
+
+Concatenating them, we get "rrey".
+Therefore, the answer is"rrey".
+pred_before : "rrey".
+pred_after : rrey
+pred : rrey
+GT : rbey
+*************************
+*************************
+302st data
+Take the last letters of each words in "Whitney Erika Tj Benito" and concatenate them.
+The last letters of each word in "Whitney Erika Tj Benito" are "y a j o". 
+
+Concatenating them gives us the word "yajo".
+Therefore, the answer is"yajo".
+pred_before : "yajo".
+pred_after : yajo
+pred : yajo
+GT : yajo
+*************************
+*************************
+303st data
+Take the last letters of each words in "Bob Aman Richie Sana" and concatenate them.
+The last letters of each word are: b, n, e, a. 
+
+Concatenating them gives the word "bnea".
+Therefore, the answer isbnea
+pred_before : bnea
+pred_after : bnea
+pred : bnea
+GT : bnea
+*************************
+*************************
+304st data
+Take the last letters of each words in "Chuy Shane Jaden Maynor" and concatenate them.
+The last letters of each word in "Chuy Shane Jaden Maynor" are: y, e, n, r, e, n, r. 
+
+Concatenating them together, we get "yenrenr".
+Therefore, the answer is"yenrenr".
+pred_before : "yenrenr".
+pred_after : yenrenr
+pred : yenrenr
+GT : yenr
+*************************
+*************************
+305st data
+Take the last letters of each words in "Elva Kari Shirley Gilberto" and concatenate them.
+a-i-y-o
+Therefore, the answer isa-i-y-o.
+pred_before : a-i-y-o.
+pred_after : a-i-y-o
+pred : a-i-y-o
+GT : aiyo
+*************************
+*************************
+306st data
+Take the last letters of each words in "Leanne Lulu Lopez Jp" and concatenate them.
+eulzpj
+Therefore, the answer iseulzpj
+pred_before : eulzpj
+pred_after : eulzpj
+pred : eulzpj
+GT : euzp
+*************************
+*************************
+307st data
+Take the last letters of each words in "Hayden Maya Zack Roberto" and concatenate them.
+nnykto
+Therefore, the answer isnnykto
+pred_before : nnykto
+pred_after : nnykto
+pred : nnykto
+GT : nako
+*************************
+*************************
+308st data
+Take the last letters of each words in "Rashad Savannah Flavio Bert" and concatenate them.
+dhdvooert
+Therefore, the answer isdhdvooert
+pred_before : dhdvooert
+pred_after : dhdvooert
+pred : dhdvooert
+GT : dhot
+*************************
+*************************
+309st data
+Take the last letters of each words in "Beatrice Taylor Juan Carlos Kaitlin" and concatenate them.
+e r s s n s n s n
+Therefore, the answer iserssnsnsn
+pred_before : erssnsnsn
+pred_after : erssnsnsn
+pred : erssnsnsn
+GT : ersn
+*************************
+*************************
+310st data
+Take the last letters of each words in "Lora Alberto Cathy Kara" and concatenate them.
+The last letters of each word in "Lora Alberto Cathy Kara" are "a o y a". 
+
+When concatenated, they form the word "aoya".
+Therefore, the answer is"aoya".
+pred_before : "aoya".
+pred_after : aoya
+pred : aoya
+GT : aoya
+*************************
+*************************
+311st data
+Take the last letters of each words in "Yessenia Geraldine Minerva Tanya" and concatenate them.
+The last letters of each word in "Yessenia Geraldine Minerva Tanya" are "a e a a". Concatenating them gives us the word "aeaa".
+Therefore, the answer is"aeaa".
+pred_before : "aeaa".
+pred_after : aeaa
+pred : aeaa
+GT : aeaa
+*************************
+*************************
+312st data
+Take the last letters of each words in "Mel Josh Alejandra Harley" and concatenate them.
+The last letters of each word in "Mel Josh Alejandra Harley" are "l h a y". Concatenating them gives us the word "lhay".
+Therefore, the answer is"lhay".
+pred_before : "lhay".
+pred_after : lhay
+pred : lhay
+GT : lhay
+*************************
+*************************
+313st data
+Take the last letters of each words in "Delia Kathleen Mateo Marvin" and concatenate them.
+aoenon
+Therefore, the answer isaoenon
+pred_before : aoenon
+pred_after : aoenon
+pred : aoenon
+GT : anon
+*************************
+*************************
+314st data
+Take the last letters of each words in "Maria Elena Dewayne Mj Elliott" and concatenate them.
+The last letters of each word in "Maria Elena Dewayne Mj Elliott" are: a, a, e, e, e, e, e, j, t, t.
+
+Concatenating them, we get: aaeeeejtt
+Therefore, the answer isaaeeeejtt.
+pred_before : aaeeeejtt.
+pred_after : aaeeeejtt
+pred : aaeeeejtt
+GT : aejt
+*************************
+*************************
+315st data
+Take the last letters of each words in "Jason Betty Elisa Jay" and concatenate them.
+netyasay
+Therefore, the answer isnetyasay
+pred_before : netyasay
+pred_after : netyasay
+pred : netyasay
+GT : nyay
+*************************
+*************************
+316st data
+Take the last letters of each words in "Buddy Violet Johana Tina" and concatenate them.
+The last letters of each word in "Buddy Violet Johana Tina" are "y t a a". Concatenating them gives us the word "ytaa".
+Therefore, the answer isytaa
+pred_before : ytaa
+pred_after : ytaa
+pred : ytaa
+GT : ytaa
+*************************
+*************************
+317st data
+Take the last letters of each words in "Antonio Ronald Ken Rachael" and concatenate them.
+The last letters of each word in "Antonio Ronald Ken Rachael" are "o d n l l". 
+
+When concatenated, they form the word "odnll".
+Therefore, the answer is"odnll".
+pred_before : "odnll".
+pred_after : odnll
+pred : odnll
+GT : odnl
+*************************
+*************************
+318st data
+Take the last letters of each words in "Salvador Sol Tyler Kareem" and concatenate them.
+The last letters of each word in "Salvador Sol Tyler Kareem" are "r r r m m". Concatenating them gives us "rrrmm".
+Therefore, the answer is"rrrmm".
+pred_before : "rrrmm".
+pred_after : rrrmm
+pred : rrrmm
+GT : rlrm
+*************************
+*************************
+319st data
+Take the last letters of each words in "Ralph Jeanne Kyle Alejandro" and concatenate them.
+The last letters of each word in "Ralph Jeanne Kyle Alejandro" are "h e e e o e o". 
+
+When concatenated, they form the word "heeeoeo".
+Therefore, the answer is"heeeoeo".
+pred_before : "heeeoeo".
+pred_after : heeeoeo
+pred : heeeoeo
+GT : heeo
+*************************
+*************************
+320st data
+Take the last letters of each words in "Alonzo Dorothy Alfred Rodriguez" and concatenate them.
+o y y d z
+Therefore, the answer isoyydz
+pred_before : oyydz
+pred_after : oyydz
+pred : oyydz
+GT : oydz
+*************************
+*************************
+321st data
+Take the last letters of each words in "Sonia Griffin Claude Josephine" and concatenate them.
+The last letters of each word in "Sonia Griffin Claude Josephine" are: a, n, n, e, n, e, e, e. 
+
+Concatenating them together, we get: anneenee
+Therefore, the answer isanneenee
+pred_before : anneenee
+pred_after : anneenee
+pred : anneenee
+GT : anee
+*************************
+*************************
+322st data
+Take the last letters of each words in "Maureen Fabian Claudette Peyton" and concatenate them.
+nneanet
+Therefore, the answer isnneanet
+pred_before : nneanet
+pred_after : nneanet
+pred : nneanet
+GT : nnen
+*************************
+*************************
+323st data
+Take the last letters of each words in "Blaine Syed Priya Ruby" and concatenate them.
+eeydyauby
+Therefore, the answer iseeydyauby
+pred_before : eeydyauby
+pred_after : eeydyauby
+pred : eeydyauby
+GT : eday
+*************************
+*************************
+324st data
+Take the last letters of each words in "Gabby Reese Leah Celia" and concatenate them.
+The last letters of each word in "Gabby Reese Leah Celia" are "y e h a". Concatenating them gives us the word "yeah".
+Therefore, the answer is"yeah".
+pred_before : "yeah".
+pred_after : yeah
+pred : yeah
+GT : yeha
+*************************
+*************************
+325st data
+Take the last letters of each words in "Jacky Socorro Mark Wanda" and concatenate them.
+y o o o a
+Therefore, the answer isyoaoa
+pred_before : yoaoa
+pred_after : yoaoa
+pred : yoaoa
+GT : yoka
+*************************
+*************************
+326st data
+Take the last letters of each words in "Axel Osvaldo Mildred Sylvia" and concatenate them.
+The last letters of each word in "Axel Osvaldo Mildred Sylvia" are: l, o, o, a. 
+
+Concatenating them, we get "looa".
+Therefore, the answer is"looa".
+pred_before : "looa".
+pred_after : looa
+pred : looa
+GT : loda
+*************************
+*************************
+327st data
+Take the last letters of each words in "Tristan Marleny Santiago Viviana" and concatenate them.
+nynoia
+Therefore, the answer isnynoia
+pred_before : nynoia
+pred_after : nynoia
+pred : nynoia
+GT : nyoa
+*************************
+*************************
+328st data
+Take the last letters of each words in "Blanca Monika Ervin Lori" and concatenate them.
+aaiainaoini
+Therefore, the answer isaaiainaoini
+pred_before : aaiainaoini
+pred_after : aaiainaoini
+pred : aaiainaoini
+GT : aani
+*************************
+*************************
+329st data
+Take the last letters of each words in "Lionel Fiona Bobby Janeth" and concatenate them.
+The last letters of each word in "Lionel Fiona Bobby Janeth" are: l, a, y, h. 
+
+Concatenating them together, we get "layh".
+Therefore, the answer is"layh".
+pred_before : "layh".
+pred_after : layh
+pred : layh
+GT : layh
+*************************
+*************************
+330st data
+Take the last letters of each words in "Blake Hunter Lou Spencer" and concatenate them.
+The last letters of each word in "Blake Hunter Lou Spencer" are "e r u r e r". When concatenated, they form the word "erurer".
+Therefore, the answer is"erurer".
+pred_before : "erurer".
+pred_after : erurer
+pred : erurer
+GT : erur
+*************************
+*************************
+331st data
+Take the last letters of each words in "Edwin Lovely Curt Damon" and concatenate them.
+nrytmon
+Therefore, the answer isnrytmon
+pred_before : nrytmon
+pred_after : nrytmon
+pred : nrytmon
+GT : nytn
+*************************
+*************************
+332st data
+Take the last letters of each words in "Marc Doris Ernie Gary" and concatenate them.
+cseey
+Therefore, the answer iscseey
+pred_before : cseey
+pred_after : cseey
+pred : cseey
+GT : csey
+*************************
+*************************
+333st data
+Take the last letters of each words in "Shari Bella Liza Maira" and concatenate them.
+The last letters of each word in "Shari Bella Liza Maira" are: i, a, a, a. 
+
+Concatenating them together, we get "iaaa".
+Therefore, the answer is"iaaa".
+pred_before : "iaaa".
+pred_after : iaaa
+pred : iaaa
+GT : iaaa
+*************************
+*************************
+334st data
+Take the last letters of each words in "Alexander Marina Valentina Mila" and concatenate them.
+ranaanaiia
+Therefore, the answer isranaanaiia
+pred_before : ranaanaiia
+pred_after : ranaanaiia
+pred : ranaanaiia
+GT : raaa
+*************************
+*************************
+335st data
+Take the last letters of each words in "Cristian Nik Gwen Josiah" and concatenate them.
+n n n n
+Therefore, the answer isnnnn
+pred_before : nnnn
+pred_after : nnnn
+pred : nnnn
+GT : nknh
+*************************
+*************************
+336st data
+Take the last letters of each words in "Stevie Julie Leonard Karina" and concatenate them.
+eieeardina
+Therefore, the answer iseieeardina
+pred_before : eieeardina
+pred_after : eieeardina
+pred : eieeardina
+GT : eeda
+*************************
+*************************
+337st data
+Take the last letters of each words in "Dallas Uriel Brendan Julian" and concatenate them.
+The last letters of each word in "Dallas Uriel Brendan Julian" are: s, l, n, n. 
+
+Concatenating them, we get: slnn.
+Therefore, the answer isslnn.
+pred_before : slnn.
+pred_after : slnn
+pred : slnn
+GT : slnn
+*************************
+*************************
+338st data
+Take the last letters of each words in "Fausto Tito Jade Terrance" and concatenate them.
+The last letters of each word in "Fausto Tito Jade Terrance" are: o, o, e, e. 
+
+Concatenating them, we get "ooee".
+Therefore, the answer is"ooee".
+pred_before : "ooee".
+pred_after : ooee
+pred : ooee
+GT : ooee
+*************************
+*************************
+339st data
+Take the last letters of each words in "Christina Edna Ileana Lynette" and concatenate them.
+The last letters of each word in "Christina Edna Ileana Lynette" are "a a a e e e a e". Concatenating them gives us "aaaeaea".
+Therefore, the answer is"aaaeaea".
+pred_before : "aaaeaea".
+pred_after : aaaeaea
+pred : aaaeaea
+GT : aaae
+*************************
+*************************
+340st data
+Take the last letters of each words in "Dave Ernesto Liam Marsha" and concatenate them.
+eotomaha
+Therefore, the answer iseotomaha
+pred_before : eotomaha
+pred_after : eotomaha
+pred : eotomaha
+GT : eoma
+*************************
+*************************
+341st data
+Take the last letters of each words in "Paula Irina Laurel Maribel" and concatenate them.
+The last letters of each word in "Paula Irina Laurel Maribel" are: a, a, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l, l,
+Therefore, the answer isaallllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+pred_before : aallllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+pred_after : aallllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+pred : aallllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+GT : aall
+*************************
+*************************
+342st data
+Take the last letters of each words in "Lino Mariel Aditya Elisabeth" and concatenate them.
+oeltyaeh
+Therefore, the answer isoeltyaeh.
+pred_before : oeltyaeh.
+pred_after : oeltyaeh
+pred : oeltyaeh
+GT : olah
+*************************
+*************************
+343st data
+Take the last letters of each words in "Imelda Andi Mack Rigoberto" and concatenate them.
+a d k o
+Therefore, the answer isadko
+pred_before : adko
+pred_after : adko
+pred : adko
+GT : aiko
+*************************
+*************************
+344st data
+Take the last letters of each words in "Manish Lu Karl Don" and concatenate them.
+The last letters of each word in "Manish Lu Karl Don" are: h, u, l, n. 
+
+Concatenating them, we get: "huln".
+Therefore, the answer is"huln".
+pred_before : "huln".
+pred_after : huln
+pred : huln
+GT : huln
+*************************
+*************************
+345st data
+Take the last letters of each words in "Donald Lia Gonzalo Lily" and concatenate them.
+d, a, a, o, y
+Therefore, the answer isdaaoy
+pred_before : daaoy
+pred_after : daaoy
+pred : daaoy
+GT : daoy
+*************************
+*************************
+346st data
+Take the last letters of each words in "Irving Hans Moses Nicole" and concatenate them.
+gnsesle
+Therefore, the answer isgnsesle
+pred_before : gnsesle
+pred_after : gnsesle
+pred : gnsesle
+GT : gsse
+*************************
+*************************
+347st data
+Take the last letters of each words in "Elle Alex Irma Stephan" and concatenate them.
+The last letters of each word in "Elle Alex Irma Stephan" are "e x a n". Concatenating them gives us the word "exan".
+Therefore, the answer is"exan".
+pred_before : "exan".
+pred_after : exan
+pred : exan
+GT : exan
+*************************
+*************************
+348st data
+Take the last letters of each words in "Marshall Herman Faye Grant" and concatenate them.
+l n n e t
+Therefore, the answer islnnet
+pred_before : lnnet
+pred_after : lnnet
+pred : lnnet
+GT : lnet
+*************************
+*************************
+349st data
+Take the last letters of each words in "Chloe Flaco Theodore Nathalie" and concatenate them.
+eoeoeeie
+Therefore, the answer iseoeoeeie
+pred_before : eoeoeeie
+pred_after : eoeoeeie
+pred : eoeoeeie
+GT : eoee
+*************************
+*************************
+350st data
+Take the last letters of each words in "Marcus Ramirez Junior Arely" and concatenate them.
+srsrny
+Therefore, the answer issrsrny
+pred_before : srsrny
+pred_after : srsrny
+pred : srsrny
+GT : szry
+*************************
+*************************
+351st data
+Take the last letters of each words in "Chava Rosalia Kurt Linda" and concatenate them.
+aiaurtnda
+Therefore, the answer isaiaurtnda
+pred_before : aiaurtnda
+pred_after : aiaurtnda
+pred : aiaurtnda
+GT : aata
+*************************
+*************************
+352st data
+Take the last letters of each words in "Miranda Jacques Clarence Chandra" and concatenate them.
+s s e a
+Therefore, the answer is"ssae"
+pred_before : "ssae"
+pred_after : ssae
+pred : ssae
+GT : asea
+*************************
+*************************
+353st data
+Take the last letters of each words in "Lalo Yolanda Elida Ester" and concatenate them.
+The last letters of each word in "Lalo Yolanda Elida Ester" are "o a a a". 
+
+When concatenated, they form the word "oaaa".
+Therefore, the answer isoaaa
+pred_before : oaaa
+pred_after : oaaa
+pred : oaaa
+GT : oaar
+*************************
+*************************
+354st data
+Take the last letters of each words in "Jodi Judi Nia Raj" and concatenate them.
+The last letters of each word in "Jodi Judi Nia Raj" are "i", "i", "a", and "j". Concatenating them gives us "iiaj".
+Therefore, the answer isiiaj
+pred_before : iiaj
+pred_after : iiaj
+pred : iiaj
+GT : iiaj
+*************************
+*************************
+355st data
+Take the last letters of each words in "Sal Scott Myrna Maximo" and concatenate them.
+The last letters of each word in "Sal Scott Myrna Maximo" are "l t a o o". 
+
+Concatenating them gives the word "ltaoo".
+Therefore, the answer is"ltaoo".
+pred_before : "ltaoo".
+pred_after : ltaoo
+pred : ltaoo
+GT : ltao
+*************************
+*************************
+356st data
+Take the last letters of each words in "Malcolm Hussein Franco Hugo" and concatenate them.
+m, n, o, o
+Therefore, the answer ismono
+pred_before : mono
+pred_after : mono
+pred : mono
+GT : mnoo
+*************************
+*************************
+357st data
+Take the last letters of each words in "Maryam Susy Trinity Pearl" and concatenate them.
+mmyrnyrtyarl
+Therefore, the answer ismmyrnyrtyarl
+pred_before : mmyrnyrtyarl
+pred_after : mmyrnyrtyarl
+pred : mmyrnyrtyarl
+GT : myyl
+*************************
+*************************
+358st data
+Take the last letters of each words in "Clinton Yanira Barbara Betsy" and concatenate them.
+The last letters of each word are: n, a, a, y, a, a, a, y. 
+
+Concatenating them gives us: naayaaay.
+Therefore, the answer isnaayaaay.
+pred_before : naayaaay.
+pred_after : naayaaay
+pred : naayaaay
+GT : naay
+*************************
+*************************
+359st data
+Take the last letters of each words in "Emma Maryann Olga Nataly" and concatenate them.
+aaynly
+Therefore, the answer isaaynly.
+pred_before : aaynly.
+pred_after : aaynly
+pred : aaynly
+GT : anay
+*************************
+*************************
+360st data
+Take the last letters of each words in "Isela Leslie Stacy Ingrid" and concatenate them.
+aeydycnd
+Therefore, the answer isaeydycnd.
+pred_before : aeydycnd.
+pred_after : aeydycnd
+pred : aeydycnd
+GT : aeyd
+*************************
+*************************
+361st data
+Take the last letters of each words in "Kristen Herbert Benny El" and concatenate them.
+nntnybt
+Therefore, the answer isnntnybt
+pred_before : nntnybt
+pred_after : nntnybt
+pred : nntnybt
+GT : ntyl
+*************************
+*************************
+362st data
+Take the last letters of each words in "Norma Timothy Willie Mathew" and concatenate them.
+The last letters of each word in "Norma Timothy Willie Mathew" are: a, y, e, w. 
+
+Concatenating them together, we get "ayew".
+Therefore, the answer is"ayew".
+pred_before : "ayew".
+pred_after : ayew
+pred : ayew
+GT : ayew
+*************************
+*************************
+363st data
+Take the last letters of each words in "Phillip Ajay Janie Augusto" and concatenate them.
+The last letters of each word in "Phillip Ajay Janie Augusto" are: p, y, e, o, y, e, o, o. 
+
+Concatenating them, we get "pyeoyo".
+Therefore, the answer is"pyeoyo".
+pred_before : "pyeoyo".
+pred_after : pyeoyo
+pred : pyeoyo
+GT : pyeo
+*************************
+*************************
+364st data
+Take the last letters of each words in "Alexandria Meghan Autumn Robert" and concatenate them.
+aiahtnrt
+Therefore, the answer isaiahtnrt.
+pred_before : aiahtnrt.
+pred_after : aiahtnrt
+pred : aiahtnrt
+GT : annt
+*************************
+*************************
+365st data
+Take the last letters of each words in "Kendall Matias Kaleb Randy" and concatenate them.
+ldlssmby
+Therefore, the answer isldlssmby
+pred_before : ldlssmby
+pred_after : ldlssmby
+pred : ldlssmby
+GT : lsby
+*************************
+*************************
+366st data
+Take the last letters of each words in "Claudia Cole Matthew Juan Pablo" and concatenate them.
+aeehwnloao
+Therefore, the answer isaeehwnloao.
+pred_before : aeehwnloao.
+pred_after : aeehwnloao
+pred : aeehwnloao
+GT : aewo
+*************************
+*************************
+367st data
+Take the last letters of each words in "Sean Rebeca Marco Sami" and concatenate them.
+nacarommi
+Therefore, the answer isnacarommi
+pred_before : nacarommi
+pred_after : nacarommi
+pred : nacarommi
+GT : naoi
+*************************
+*************************
+368st data
+Take the last letters of each words in "Leigh Mindy Rocky Lex" and concatenate them.
+hnykyc
+Therefore, the answer ishnykyc
+pred_before : hnykyc
+pred_after : hnykyc
+pred : hnykyc
+GT : hyyx
+*************************
+*************************
+369st data
+Take the last letters of each words in "Guadalupe Ebony Wil Luke" and concatenate them.
+The last letters of each word in "Guadalupe Ebony Wil Luke" are "e e y e e e e e". 
+
+Concatenating them gives us the word "eyeeyeeye".
+Therefore, the answer is"eyeeyeeye".
+pred_before : "eyeeyeeye".
+pred_after : eyeeyeeye
+pred : eyeeyeeye
+GT : eyle
+*************************
+*************************
+370st data
+Take the last letters of each words in "Kathy Elsa Alba Ivette" and concatenate them.
+The last letters of each word in "Kathy Elsa Alba Ivette" are "y a a e". 
+
+When concatenated, they form the word "yaae".
+Therefore, the answer is"yaae".
+pred_before : "yaae".
+pred_after : yaae
+pred : yaae
+GT : yaae
+*************************
+*************************
+371st data
+Take the last letters of each words in "Angelina Layla Jenny Zane" and concatenate them.
+The last letters of each word in "Angelina Layla Jenny Zane" are "a a y e". Concatenating them gives us the word "aaye".
+Therefore, the answer is"aaye".
+pred_before : "aaye".
+pred_after : aaye
+pred : aaye
+GT : aaye
+*************************
+*************************
+372st data
+Take the last letters of each words in "Sandeep Graciela Jai Xiomara" and concatenate them.
+pdaa
+Therefore, the answer ispdaa
+pred_before : pdaa
+pred_after : pdaa
+pred : pdaa
+GT : paia
+*************************
+*************************
+373st data
+Take the last letters of each words in "Skylar Chrissy Misty Kike" and concatenate them.
+The last letters of each word are: r, y, y, e. 
+
+Concatenating them, we get "ryye".
+Therefore, the answer is"ryye".
+pred_before : "ryye".
+pred_after : ryye
+pred : ryye
+GT : ryye
+*************************
+*************************
+374st data
+Take the last letters of each words in "Barbie Desiree Yaneth Dre" and concatenate them.
+e e e e e e e e e e e e
+Therefore, the answer iseeeeeeeeeeee
+pred_before : eeeeeeeeeeee
+pred_after : eeeeeeeeeeee
+pred : eeeeeeeeeeee
+GT : eehe
+*************************
+*************************
+375st data
+Take the last letters of each words in "Zach Trenton Cary Beth" and concatenate them.
+The last letters of each word in "Zach Trenton Cary Beth" are: h, n, n, y, h. 
+
+Concatenating them together, we get: hnnyh.
+Therefore, the answer ishnnyh.
+pred_before : hnnyh.
+pred_after : hnnyh
+pred : hnnyh
+GT : hnyh
+*************************
+*************************
+376st data
+Take the last letters of each words in "Nichole Heriberto Darian Peter" and concatenate them.
+eotnroer
+Therefore, the answer iseotnroer.
+pred_before : eotnroer.
+pred_after : eotnroer
+pred : eotnroer
+GT : eonr
+*************************
+*************************
+377st data
+Take the last letters of each words in "Fermin Berenice Marianne Eleanor" and concatenate them.
+The last letters of each word in "Fermin Berenice Marianne Eleanor" are: n, e, e, e, e, e, e, r.
+
+Concatenating these letters, we get: neeereer.
+Therefore, the answer isneeereer.
+pred_before : neeereer.
+pred_after : neeereer
+pred : neeereer
+GT : neer
+*************************
+*************************
+378st data
+Take the last letters of each words in "Nubia Sarah Jalen Kris" and concatenate them.
+The last letters of each word in "Nubia Sarah Jalen Kris" are "a h n s s s". 
+
+When concatenated, they form the word "ahnss".
+Therefore, the answer is"ahnss".
+pred_before : "ahnss".
+pred_after : ahnss
+pred : ahnss
+GT : ahns
+*************************
+*************************
+379st data
+Take the last letters of each words in "Garrett Eva Joaquin Monique" and concatenate them.
+The last letters of each word in "Garrett Eva Joaquin Monique" are "t a n e e". 
+
+Concatenating them gives the word "tanee".
+Therefore, the answer is"tanee".
+pred_before : "tanee".
+pred_after : tanee
+pred : tanee
+GT : tane
+*************************
+*************************
+380st data
+Take the last letters of each words in "Georgina Joshua Lindsey César" and concatenate them.
+aahwadn
+Therefore, the answer isaahwadn.
+pred_before : aahwadn.
+pred_after : aahwadn
+pred : aahwadn
+GT : aayr
+*************************
+*************************
+381st data
+Take the last letters of each words in "Bailey Lourdes Brianna Martín" and concatenate them.
+yednnaínratn
+Therefore, the answer isyednnaínratn
+pred_before : yednnaínratn
+pred_after : yednnaínratn
+pred : yednnaínratn
+GT : ysan
+*************************
+*************************
+382st data
+Take the last letters of each words in "Sunil Tiana Darla Darnell" and concatenate them.
+The last letters of each word in "Sunil Tiana Darla Darnell" are "l a a l l". 
+
+When concatenated, they form the word "laall".
+Therefore, the answer is"laall".
+pred_before : "laall".
+pred_after : laall
+pred : laall
+GT : laal
+*************************
+*************************
+383st data
+Take the last letters of each words in "Luz Terence Elder Jazmin" and concatenate them.
+zceermin
+Therefore, the answer iszceermin
+pred_before : zceermin
+pred_after : zceermin
+pred : zceermin
+GT : zern
+*************************
+*************************
+384st data
+Take the last letters of each words in "Sally Sadie Christie Ellie" and concatenate them.
+The last letters of each word in "Sally Sadie Christie Ellie" are "y e e e e". Concatenating them gives us the word "yeeee".
+Therefore, the answer is"yeeee".
+pred_before : "yeeee".
+pred_after : yeeee
+pred : yeeee
+GT : yeee
+*************************
+*************************
+385st data
+Take the last letters of each words in "Billy Kassandra Joy Abe" and concatenate them.
+yadnillAyoJeb
+Therefore, the answer isyadnillAyoJeb
+pred_before : yadnillAyoJeb
+pred_after : yadnillAyoJeb
+pred : yadnillAyoJeb
+GT : yaye
+*************************
+*************************
+386st data
+Take the last letters of each words in "Chandler Martina Leonardo Gregg" and concatenate them.
+The last letters of each word in "Chandler Martina Leonardo Gregg" are:
+
+r, a, a, o, a, o, o, g
+
+Concatenating them gives us the word "raaoaogo".
+Therefore, the answer is"raaoaogo".
+pred_before : "raaoaogo".
+pred_after : raaoaogo
+pred : raaoaogo
+GT : raog
+*************************
+*************************
+387st data
+Take the last letters of each words in "Carolyn Sasha Mercy Keri" and concatenate them.
+nhaay
+Therefore, the answer isnhaay
+pred_before : nhaay
+pred_after : nhaay
+pred : nhaay
+GT : nayi
+*************************
+*************************
+388st data
+Take the last letters of each words in "Allyson Mara Jo Toni" and concatenate them.
+nraojoni
+Therefore, the answer isnraojoni
+pred_before : nraojoni
+pred_after : nraojoni
+pred : nraojoni
+GT : naoi
+*************************
+*************************
+389st data
+Take the last letters of each words in "Garry Arielle Elba Rodney" and concatenate them.
+The last letters of each word in "Garry Arielle Elba Rodney" are "y e a e y". Concatenating them gives us "yeaey".
+Therefore, the answer is"yeaey".
+pred_before : "yeaey".
+pred_after : yeaey
+pred : yeaey
+GT : yeay
+*************************
+*************************
+390st data
+Take the last letters of each words in "Jody Juan Rebekah Kaylee" and concatenate them.
+y n h y e e
+Therefore, the answer isynhyee
+pred_before : ynhyee
+pred_after : ynhyee
+pred : ynhyee
+GT : ynhe
+*************************
+*************************
+391st data
+Take the last letters of each words in "Maritza Nana Loretta Eric" and concatenate them.
+azanatcer
+Therefore, the answer isazanatcer
+pred_before : azanatcer
+pred_after : azanatcer
+pred : azanatcer
+GT : aaac
+*************************
+*************************
+392st data
+Take the last letters of each words in "Damian Crystal Nisha Hernan" and concatenate them.
+The last letters of each word in "Damian Crystal Nisha Hernan" are "n l a a n". 
+
+Concatenating them gives us the word "nlaan".
+Therefore, the answer isnlaan
+pred_before : nlaan
+pred_after : nlaan
+pred : nlaan
+GT : nlan
+*************************
+*************************
+393st data
+Take the last letters of each words in "Geo Kody Isaias Giovanni" and concatenate them.
+ydoasnnai
+Therefore, the answer isydoasnnai.
+pred_before : ydoasnnai.
+pred_after : ydoasnnai
+pred : ydoasnnai
+GT : oysi
+*************************
+*************************
+394st data
+Take the last letters of each words in "Peggy Trent Darrell Pamela" and concatenate them.
+The last letters of each word in "Peggy Trent Darrell Pamela" are: y, t, l, m, a.
+
+Concatenating them together, we get: ytlma.
+Therefore, the answer isytlma.
+pred_before : ytlma.
+pred_after : ytlma
+pred : ytlma
+GT : ytla
+*************************
+*************************
+395st data
+Take the last letters of each words in "Michel Roy Sergey Jessie" and concatenate them.
+The last letters of each word are "l r y e". Concatenating them gives the word "lrye".
+Therefore, the answer is"lrye"
+pred_before : "lrye"
+pred_after : lrye
+pred : lrye
+GT : lyye
+*************************
+*************************
+396st data
+Take the last letters of each words in "Ulises Derek Adrianna Eugene" and concatenate them.
+sksnnae
+Therefore, the answer issksnnae
+pred_before : sksnnae
+pred_after : sksnnae
+pred : sksnnae
+GT : skae
+*************************
+*************************
+397st data
+Take the last letters of each words in "Oswaldo José Luis Sheldon Tara" and concatenate them.
+oSeNodara
+Therefore, the answer isoSeNodara
+pred_before : oSeNodara
+pred_after : oSeNodara
+pred : oSeNodara
+GT : osna
+*************************
+*************************
+398st data
+Take the last letters of each words in "Bobbi Tamika Zac Lala" and concatenate them.
+The last letters of each word in "Bobbi Tamika Zac Lala" are: i, a, c, a. 
+
+Concatenating them together, we get "iaca".
+Therefore, the answer is"iaca".
+pred_before : "iaca".
+pred_after : iaca
+pred : iaca
+GT : iaca
+*************************
+*************************
+399st data
+Take the last letters of each words in "Charles Emilio Vivek Steve" and concatenate them.
+ssoe
+Therefore, the answer isssoe
+pred_before : ssoe
+pred_after : ssoe
+pred : ssoe
+GT : soke
+*************************
+*************************
+400st data
+Take the last letters of each words in "Selena Keisha Gladys Cedric" and concatenate them.
+The last letters of each word in "Selena Keisha Gladys Cedric" are: a, a, s, c. 
+
+Concatenating them, we get: aasc.
+Therefore, the answer isaasc
+pred_before : aasc
+pred_after : aasc
+pred : aasc
+GT : aasc
+*************************
+*************************
+401st data
+Take the last letters of each words in "Idalia Arnoldo Marla Duane" and concatenate them.
+The last letters of each word in "Idalia Arnoldo Marla Duane" are "a o a e". 
+
+Concatenating them gives the word "aoae".
+Therefore, the answer is"aoae".
+pred_before : "aoae".
+pred_after : aoae
+pred : aoae
+GT : aoae
+*************************
+*************************
+402st data
+Take the last letters of each words in "Debby Geoffrey Alana Silvestre" and concatenate them.
+y y y e e e e e
+Therefore, the answer isyyyyeeee
+pred_before : yyyyeeee
+pred_after : yyyyeeee
+pred : yyyyeeee
+GT : yyae
+*************************
+*************************
+403st data
+Take the last letters of each words in "Vicente Dayana Kasey Lin" and concatenate them.
+eaynseyn
+Therefore, the answer iseaynseyn
+pred_before : eaynseyn
+pred_after : eaynseyn
+pred : eaynseyn
+GT : eayn
+*************************
+*************************
+404st data
+Take the last letters of each words in "Walter Mikayla Larry Ryan" and concatenate them.
+The last letters of each word in "Walter Mikayla Larry Ryan" are "r a y n". Concatenating them gives us the word "rayn".
+Therefore, the answer is"rayn".
+pred_before : "rayn".
+pred_after : rayn
+pred : rayn
+GT : rayn
+*************************
+*************************
+405st data
+Take the last letters of each words in "Rohan Antoinette Nikki Aida" and concatenate them.
+The last letters of each word in "Rohan Antoinette Nikki Aida" are: n, e, i, i, a. 
+
+Concatenating them together, we get "neiia".
+Therefore, the answer is"neiia".
+pred_before : "neiia".
+pred_after : neiia
+pred : neiia
+GT : neia
+*************************
+*************************
+406st data
+Take the last letters of each words in "Marian Joanne Darrin Rohit" and concatenate them.
+nneinohit
+Therefore, the answer isnneinohit
+pred_before : nneinohit
+pred_after : nneinohit
+pred : nneinohit
+GT : nent
+*************************
+*************************
+407st data
+Take the last letters of each words in "Nicolas Aaliyah Pascual Rob" and concatenate them.
+sahluocbo
+Therefore, the answer issahluocbo.
+pred_before : sahluocbo.
+pred_after : sahluocbo
+pred : sahluocbo
+GT : shlb
+*************************
+*************************
+408st data
+Take the last letters of each words in "Yazmin Lea Rodrigo Sammy" and concatenate them.
+nnaoioy
+Therefore, the answer isnnaoioy
+pred_before : nnaoioy
+pred_after : nnaoioy
+pred : nnaoioy
+GT : naoy
+*************************
+*************************
+409st data
+Take the last letters of each words in "Alina Alessandra Amina Bianca" and concatenate them.
+The last letters of each word in "Alina Alessandra Amina Bianca" are "a a a a". When concatenated, they form the word "aaaa".
+Therefore, the answer is"aaaa".
+pred_before : "aaaa".
+pred_after : aaaa
+pred : aaaa
+GT : aaaa
+*************************
+*************************
+410st data
+Take the last letters of each words in "Raven Marisela Ross Angie" and concatenate them.
+nalaasrge
+Therefore, the answer isnalaasrge
+pred_before : nalaasrge
+pred_after : nalaasrge
+pred : nalaasrge
+GT : nase
+*************************
+*************************
+411st data
+Take the last letters of each words in "Tucker Daniel Hernandez Alison" and concatenate them.
+rdrznnn
+Therefore, the answer isrdrznnn
+pred_before : rdrznnn
+pred_after : rdrznnn
+pred : rdrznnn
+GT : rlzn
+*************************
+*************************
+412st data
+Take the last letters of each words in "Domingo Briana Michael Joan" and concatenate them.
+The last letters of each word in "Domingo Briana Michael Joan" are "o a l n". Concatenating them gives us the word "oaln".
+Therefore, the answer is"oaln".
+pred_before : "oaln".
+pred_after : oaln
+pred : oaln
+GT : oaln
+*************************
+*************************
+413st data
+Take the last letters of each words in "Talia Nicki Tia Divya" and concatenate them.
+The last letters of each word in "Talia Nicki Tia Divya" are "a i a a". 
+
+When concatenated, they form the word "aiaa".
+Therefore, the answer is"aiaa".
+pred_before : "aiaa".
+pred_after : aiaa
+pred : aiaa
+GT : aiaa
+*************************
+*************************
+414st data
+Take the last letters of each words in "Krishna Catalina Eileen Teddy" and concatenate them.
+The last letters of each word in "Krishna Catalina Eileen Teddy" are "a a n a y". Concatenating them gives us the word "aanay".
+Therefore, the answer is"aanay".
+pred_before : "aanay".
+pred_after : aanay
+pred : aanay
+GT : aany
+*************************
+*************************
+415st data
+Take the last letters of each words in "Celso Tracy Winston Anton" and concatenate them.
+The last letters of each word in "Celso Tracy Winston Anton" are: o, y, n, n, n. 
+
+Concatenating them, we get "oynn".
+Therefore, the answer is"oynn".
+pred_before : "oynn".
+pred_after : oynn
+pred : oynn
+GT : oynn
+*************************
+*************************
+416st data
+Take the last letters of each words in "Antoine Javier Brett Stewart" and concatenate them.
+eervart
+Therefore, the answer iseervart
+pred_before : eervart
+pred_after : eervart
+pred : eervart
+GT : ertt
+*************************
+*************************
+417st data
+Take the last letters of each words in "Hailey Avi Bree Samira" and concatenate them.
+yevieeramis
+Therefore, the answer isyevieeramis
+pred_before : yevieeramis
+pred_after : yevieeramis
+pred : yevieeramis
+GT : yiea
+*************************
+*************************
+418st data
+Take the last letters of each words in "Dino Toby Abigail Manuela" and concatenate them.
+The last letters of each word in "Dino Toby Abigail Manuela" are "o y l a". 
+
+When concatenated, they form the word "oyla".
+Therefore, the answer is"oyla"
+pred_before : "oyla"
+pred_after : oyla
+pred : oyla
+GT : oyla
+*************************
+*************************
+419st data
+Take the last letters of each words in "Anil Enrique Jimmy Jhonny" and concatenate them.
+The last letters of each word in "Anil Enrique Jimmy Jhonny" are "l e y y". 
+
+When concatenated, they form the word "leyy".
+Therefore, the answer is"leyy".
+pred_before : "leyy".
+pred_after : leyy
+pred : leyy
+GT : leyy
+*************************
+*************************
+420st data
+Take the last letters of each words in "Lynda Danilo Jonny Judith" and concatenate them.
+aonnyth
+Therefore, the answer isaonnyth.
+pred_before : aonnyth.
+pred_after : aonnyth
+pred : aonnyth
+GT : aoyh
+*************************
+*************************
+421st data
+Take the last letters of each words in "Miriam Brandy Bertha Renato" and concatenate them.
+The last letters of each word in "Miriam Brandy Bertha Renato" are "m y a a o". 
+
+Concatenating them gives us the word "myaao".
+Therefore, the answer is"myaao".
+pred_before : "myaao".
+pred_after : myaao
+pred : myaao
+GT : myao
+*************************
+*************************
+422st data
+Take the last letters of each words in "Melody Ramiro Humberto Jacob" and concatenate them.
+y o o o o b
+Therefore, the answer isyoob
+pred_before : yoob
+pred_after : yoob
+pred : yoob
+GT : yoob
+*************************
+*************************
+423st data
+Take the last letters of each words in "Jazmine Carmen Kitty Nina" and concatenate them.
+The last letters of each word in "Jazmine Carmen Kitty Nina" are "e n y a". Concatenating them gives us the word "enya".
+Therefore, the answer is"enya".
+pred_before : "enya".
+pred_after : enya
+pred : enya
+GT : enya
+*************************
+*************************
+424st data
+Take the last letters of each words in "Neil Dani Eddie Marcelino" and concatenate them.
+The last letters of each word in "Neil Dani Eddie Marcelino" are "l i e o o o". Concatenating them gives the word "lieooo".
+Therefore, the answer is"lieooo".
+pred_before : "lieooo".
+pred_after : lieooo
+pred : lieooo
+GT : lieo
+*************************
+*************************
+425st data
+Take the last letters of each words in "Charmaine Vic Homero Jeanine" and concatenate them.
+e c o n e n e
+Therefore, the answer iseconene
+pred_before : econene
+pred_after : econene
+pred : econene
+GT : ecoe
+*************************
+*************************
+426st data
+Take the last letters of each words in "Gayle Doreen Chelsey Helena" and concatenate them.
+The last letters of each word in "Gayle Doreen Chelsey Helena" are "e n y a". Concatenating them gives us the word "enya".
+Therefore, the answer is"enya".
+pred_before : "enya".
+pred_after : enya
+pred : enya
+GT : enya
+*************************
+*************************
+427st data
+Take the last letters of each words in "Martha Elijah Dominic Tonya" and concatenate them.
+The last letters of each word in "Martha Elijah Dominic Tonya" are: a, h, c, a. 
+
+Concatenating them together, we get "ahca".
+Therefore, the answer is"ahca".
+pred_before : "ahca".
+pred_after : ahca
+pred : ahca
+GT : ahca
+*************************
+*************************
+428st data
+Take the last letters of each words in "Cinthia Lloyd Jacqueline Jc" and concatenate them.
+aaydneJc
+Therefore, the answer isaaydneJc
+pred_before : aaydneJc
+pred_after : aaydneJc
+pred : aaydneJc
+GT : adec
+*************************
+*************************
+429st data
+Take the last letters of each words in "Rosario Manoj Adolfo Reina" and concatenate them.
+The last letters of each word in "Rosario Manoj Adolfo Reina" are "o j o o a a". 
+
+Concatenating them gives us the word "ojooa".
+Therefore, the answer is"ojooa".
+pred_before : "ojooa".
+pred_after : ojooa
+pred : ojooa
+GT : ojoa
+*************************
+*************************
+430st data
+Take the last letters of each words in "Ivy Romeo Jana Ej" and concatenate them.
+The last letters of each word in "Ivy Romeo Jana Ej" are "y o a j j". 
+
+Concatenating them gives us the word "yoajj".
+Therefore, the answer is"yoajj".
+pred_before : "yoajj".
+pred_after : yoajj
+pred : yoajj
+GT : yoaj
+*************************
+*************************
+431st data
+Take the last letters of each words in "Nidia Rachelle Lauren Shelia" and concatenate them.
+The last letters of each word in "Nidia Rachelle Lauren Shelia" are "a e n a". Concatenating them gives us the word "aena".
+Therefore, the answer is"aena".
+pred_before : "aena".
+pred_after : aena
+pred : aena
+GT : aena
+*************************
+*************************
+432st data
+Take the last letters of each words in "Roni Nikita Hannah Kiana" and concatenate them.
+The last letters of each word in "Roni Nikita Hannah Kiana" are "i a h a a". 
+
+When concatenated, they form the word "iahaa".
+Therefore, the answer is"iahaa".
+pred_before : "iahaa".
+pred_after : iahaa
+pred : iahaa
+GT : iaha
+*************************
+*************************
+433st data
+Take the last letters of each words in "Angel Sheryl Dulce Kenny" and concatenate them.
+The last letters of each word in "Angel Sheryl Dulce Kenny" are: l, l, e, y, e, y, e, y.
+
+Concatenating them together, we get "lleyeyey".
+Therefore, the answer is"lleyeyey".
+pred_before : "lleyeyey".
+pred_after : lleyeyey
+pred : lleyeyey
+GT : lley
+*************************
+*************************
+434st data
+Take the last letters of each words in "Manolo Bobbie Ash Jaqueline" and concatenate them.
+The last letters of each word in "Manolo Bobbie Ash Jaqueline" are: o, e, h, e. 
+
+Concatenating them, we get: "oeh".
+Therefore, the answer is"oeh".
+pred_before : "oeh".
+pred_after : oeh
+pred : oeh
+GT : oehe
+*************************
+*************************
+435st data
+Take the last letters of each words in "Maura Selvin Tabitha Gino" and concatenate them.
+a n a a o
+Therefore, the answer isanaao
+pred_before : anaao
+pred_after : anaao
+pred : anaao
+GT : anao
+*************************
+*************************
+436st data
+Take the last letters of each words in "Deon Lane Everett Lindsay" and concatenate them.
+e n e y d y y
+Therefore, the answer iseneydyy
+pred_before : eneydyy
+pred_after : eneydyy
+pred : eneydyy
+GT : nety
+*************************
+*************************
+437st data
+Take the last letters of each words in "Jenni Leonel Micheal Kat" and concatenate them.
+The last letters of each word in "Jenni Leonel Micheal Kat" are: i, l, l, l, t. 
+
+Concatenating them together, we get "illlt".
+Therefore, the answer is"illlt".
+pred_before : "illlt".
+pred_after : illlt
+pred : illlt
+GT : illt
+*************************
+*************************
+438st data
+Take the last letters of each words in "April Molly Maurice Jaclyn" and concatenate them.
+The last letters of each word are: l, y, e, n. 
+
+Concatenating them gives the word "lyn".
+Therefore, the answer is"lyn".
+pred_before : "lyn".
+pred_after : lyn
+pred : lyn
+GT : lyen
+*************************
+*************************
+439st data
+Take the last letters of each words in "Isaac Reyes Carly Tania" and concatenate them.
+sycyia
+Therefore, the answer issycyia
+pred_before : sycyia
+pred_after : sycyia
+pred : sycyia
+GT : csya
+*************************
+*************************
+440st data
+Take the last letters of each words in "Wilfredo Abby Karthik Perry" and concatenate them.
+ooykry
+Therefore, the answer isooykry.
+pred_before : ooykry.
+pred_after : ooykry
+pred : ooykry
+GT : oyky
+*************************
+*************************
+441st data
+Take the last letters of each words in "Efren Rex Marilyn Emerson" and concatenate them.
+n x n n n
+Therefore, the answer isnnnn
+pred_before : nnnn
+pred_after : nnnn
+pred : nnnn
+GT : nxnn
+*************************
+*************************
+442st data
+Take the last letters of each words in "Leandro Maricela Genevieve Lesly" and concatenate them.
+oarveeeey
+Therefore, the answer isoarveeeey
+pred_before : oarveeeey
+pred_after : oarveeeey
+pred : oarveeeey
+GT : oaey
+*************************
+*************************
+443st data
+Take the last letters of each words in "Cheri Rico Teo Jesus" and concatenate them.
+The last letters of each word in "Cheri Rico Teo Jesus" are: i, o, o, s, s. 
+
+Concatenating them together, we get "iooss".
+Therefore, the answer is"iooss".
+pred_before : "iooss".
+pred_after : iooss
+pred : iooss
+GT : ioos
+*************************
+*************************
+444st data
+Take the last letters of each words in "Jessy Libby Danielle Red" and concatenate them.
+ybylired
+Therefore, the answer isybylired
+pred_before : ybylired
+pred_after : ybylired
+pred : ybylired
+GT : yyed
+*************************
+*************************
+445st data
+Take the last letters of each words in "Scotty Edgar Hanna Austin" and concatenate them.
+yehnau
+Therefore, the answer isyehnau
+pred_before : yehnau
+pred_after : yehnau
+pred : yehnau
+GT : yran
+*************************
+*************************
+446st data
+Take the last letters of each words in "Rosie Charlie Mick Jacquelyn" and concatenate them.
+The last letters of each word are: e, e, e, n, k, n. 
+
+Concatenating them, we get "eenkn".
+Therefore, the answer is"eenkn".
+pred_before : "eenkn".
+pred_after : eenkn
+pred : eenkn
+GT : eekn
+*************************
+*************************
+447st data
+Take the last letters of each words in "Rosa Lana Curtis Rae" and concatenate them.
+The last letters of each word in "Rosa Lana Curtis Rae" are "a a s e e". Concatenating them gives us the word "aasee".
+Therefore, the answer is"aasee".
+pred_before : "aasee".
+pred_after : aasee
+pred : aasee
+GT : aase
+*************************
+*************************
+448st data
+Take the last letters of each words in "Teri Lina Mery Melanie" and concatenate them.
+The last letters of each word in "Teri Lina Mery Melanie" are "i a y e e". 
+
+When concatenated, they form the word "iayee".
+Therefore, the answer is"iayee".
+pred_before : "iayee".
+pred_after : iayee
+pred : iayee
+GT : iaye
+*************************
+*************************
+449st data
+Take the last letters of each words in "Sterling Jenifer Patsy Denise" and concatenate them.
+g n a y e
+Therefore, the answer isgnaye
+pred_before : gnaye
+pred_after : gnaye
+pred : gnaye
+GT : grye
+*************************
+*************************
+450st data
+Take the last letters of each words in "Caleb Chase Eleazar Chanel" and concatenate them.
+The last letters of each word in "Caleb Chase Eleazar Chanel" are "b e e r l". Concatenating them gives us the word "beerl".
+Therefore, the answer is"beerl".
+pred_before : "beerl".
+pred_after : beerl
+pred : beerl
+GT : berl
+*************************
+*************************
+451st data
+Take the last letters of each words in "King Edith Traci Flor" and concatenate them.
+The last letters of each word in "King Edith Traci Flor" are "g h i i r r". 
+
+Concatenating them together, we get "ghiirr".
+Therefore, the answer is"ghiirr".
+pred_before : "ghiirr".
+pred_after : ghiirr
+pred : ghiirr
+GT : ghir
+*************************
+*************************
+452st data
+Take the last letters of each words in "Shannon Millie Rosemary Priyanka" and concatenate them.
+The last letters of each word in "Shannon Millie Rosemary Priyanka" are "n e y a a". 
+
+Concatenating them gives us the word "neyaa".
+Therefore, the answer is"neyaa".
+pred_before : "neyaa".
+pred_after : neyaa
+pred : neyaa
+GT : neya
+*************************
+*************************
+453st data
+Take the last letters of each words in "Janet Ant Vickie Elias" and concatenate them.
+The last letters of each word in "Janet Ant Vickie Elias" are: t, t, e, s, s. 
+
+Concatenating them together, we get: ttess.
+Therefore, the answer isttess.
+pred_before : ttess.
+pred_after : ttess
+pred : ttess
+GT : ttes
+*************************
+*************************
+454st data
+Take the last letters of each words in "Agnes Adrienne Haley Riley" and concatenate them.
+seneley
+Therefore, the answer isseneley.
+pred_before : seneley.
+pred_after : seneley
+pred : seneley
+GT : seyy
+*************************
+*************************
+455st data
+Take the last letters of each words in "Gabino Kayla Laurie Familia" and concatenate them.
+The last letters of each word in "Gabino Kayla Laurie Familia" are: o, a, e, a. 
+
+Concatenating them, we get "oaea".
+Therefore, the answer is"oaea".
+pred_before : "oaea".
+pred_after : oaea
+pred : oaea
+GT : oaea
+*************************
+*************************
+456st data
+Take the last letters of each words in "Mario Pierre Amit Nelson" and concatenate them.
+The last letters of each word in "Mario Pierre Amit Nelson" are: o, e, t, l, n. 
+
+Concatenating them, we get "oetln".
+Therefore, the answer is"oetln".
+pred_before : "oetln".
+pred_after : oetln
+pred : oetln
+GT : oetn
+*************************
+*************************
+457st data
+Take the last letters of each words in "Angelica Tariq Ursula Nena" and concatenate them.
+aqrn
+Therefore, the answer isaqrn
+pred_before : aqrn
+pred_after : aqrn
+pred : aqrn
+GT : aqaa
+*************************
+*************************
+458st data
+Take the last letters of each words in "Bernard Lidia Sebastian Judy" and concatenate them.
+d d n y
+Therefore, the answer isddny
+pred_before : ddny
+pred_after : ddny
+pred : ddny
+GT : dany
+*************************
+*************************
+459st data
+Take the last letters of each words in "Maxwell Jose Beto Joe" and concatenate them.
+The last letters of each word in "Maxwell Jose Beto Joe" are "l e o o e o e". 
+
+When concatenated, they form the word "leooeoe".
+Therefore, the answer is"leooeoe".
+pred_before : "leooeoe".
+pred_after : leooeoe
+pred : leooeoe
+GT : leoe
+*************************
+*************************
+460st data
+Take the last letters of each words in "Margaret Rosi Willy Charlene" and concatenate them.
+t, i, y, e
+Therefore, the answer istiye
+pred_before : tiye
+pred_after : tiye
+pred : tiye
+GT : tiye
+*************************
+*************************
+461st data
+Take the last letters of each words in "Quinton Sam Soledad Becca" and concatenate them.
+nmdcaca
+Therefore, the answer isnmdcaca
+pred_before : nmdcaca
+pred_after : nmdcaca
+pred : nmdcaca
+GT : nmda
+*************************
+*************************
+462st data
+Take the last letters of each words in "Donnie Alli Terry Krystal" and concatenate them.
+The last letters of each word in "Donnie Alli Terry Krystal" are: e, i, y, l.
+
+Concatenating them together, we get: eiyL.
+Therefore, the answer iseiyL.
+pred_before : eiyL.
+pred_after : eiyL
+pred : eiyL
+GT : eiyl
+*************************
+*************************
+463st data
+Take the last letters of each words in "Billie Paloma Tanner Raul" and concatenate them.
+The last letters of each word in "Billie Paloma Tanner Raul" are: e, a, r, l. 
+
+Concatenating them together, we get "earl".
+Therefore, the answer is"earl".
+pred_before : "earl".
+pred_after : earl
+pred : earl
+GT : earl
+*************************
+*************************
+464st data
+Take the last letters of each words in "Marco Antonio Suzette Roland Isabel" and concatenate them.
+o o e e d l
+Therefore, the answer iso o e e d l
+pred_before : o o e e d l
+pred_after : ooeedl
+pred : ooeedl
+GT : oedl
+*************************
+*************************
+465st data
+Take the last letters of each words in "Chantal Ines Valeria Francesca" and concatenate them.
+The last letters of each word in "Chantal Ines Valeria Francesca" are: l, s, a, a, a, s, a, a, a, a.
+
+Concatenating them gives us the word "lsaaaaaaa".
+Therefore, the answer is"lsaaaaaaa".
+pred_before : "lsaaaaaaa".
+pred_after : lsaaaaaaa
+pred : lsaaaaaaa
+GT : lsaa
+*************************
+*************************
+466st data
+Take the last letters of each words in "Tori Mariam Gaby Brayan" and concatenate them.
+The last letters of each word in "Tori Mariam Gaby Brayan" are "i m y n". 
+
+Concatenating them, we get "imyn".
+Therefore, the answer is"imyn".
+pred_before : "imyn".
+pred_after : imyn
+pred : imyn
+GT : imyn
+*************************
+*************************
+467st data
+Take the last letters of each words in "Rahul Praveen Isaiah Elsie" and concatenate them.
+lneen
+Therefore, the answer islneen
+pred_before : lneen
+pred_after : lneen
+pred : lneen
+GT : lnhe
+*************************
+*************************
+468st data
+Take the last letters of each words in "Yvonne Rafaela Jb Salomon" and concatenate them.
+eaeblon
+Therefore, the answer iseaeblon
+pred_before : eaeblon
+pred_after : eaeblon
+pred : eaeblon
+GT : eabn
+*************************
+*************************
+469st data
+Take the last letters of each words in "Carlos Jackie Callie Caitlin" and concatenate them.
+s e e n n
+Therefore, the answer iss e e n n
+pred_before : s e e n n
+pred_after : seenn
+pred : seenn
+GT : seen
+*************************
+*************************
+470st data
+Take the last letters of each words in "Bret Lois Ismael Mirna" and concatenate them.
+The last letters of each word in "Bret Lois Ismael Mirna" are "t s l l l a l a". 
+
+Concatenating them gives us the word "tslllaal".
+Therefore, the answer is"tslllaal".
+pred_before : "tslllaal".
+pred_after : tslllaal
+pred : tslllaal
+GT : tsla
+*************************
+*************************
+471st data
+Take the last letters of each words in "Ericka Aly Darius Reed" and concatenate them.
+a y s d d
+Therefore, the answer isaysdd
+pred_before : aysdd
+pred_after : aysdd
+pred : aysdd
+GT : aysd
+*************************
+*************************
+472st data
+Take the last letters of each words in "Héctor Daniela Rossy Jose Manuel" and concatenate them.
+yaaoyl
+Therefore, the answer isyaaoyl
+pred_before : yaaoyl
+pred_after : yaaoyl
+pred : yaaoyl
+GT : rayl
+*************************
+*************************
+473st data
+Take the last letters of each words in "Louise Mariano Laura Gerardo" and concatenate them.
+The last letters of each word in "Louise Mariano Laura Gerardo" are "e o a a o a o o". 
+
+Concatenating them gives the word "eoaaooao".
+Therefore, the answer is"eoaaooao".
+pred_before : "eoaaooao".
+pred_after : eoaaooao
+pred : eoaaooao
+GT : eoao
+*************************
+*************************
+474st data
+Take the last letters of each words in "Boris Sabina Kaitlyn Cameron" and concatenate them.
+snaon
+Therefore, the answer issnaon
+pred_before : snaon
+pred_after : snaon
+pred : snaon
+GT : sann
+*************************
+*************************
+475st data
+Take the last letters of each words in "Alfonso Collin Amado Dick" and concatenate them.
+The last letters of each word in "Alfonso Collin Amado Dick" are "o n o d k". Concatenating them gives us the word "onodk".
+Therefore, the answer is"onodk".
+pred_before : "onodk".
+pred_after : onodk
+pred : onodk
+GT : onok
+*************************
+*************************
+476st data
+Take the last letters of each words in "Earl Rudy Harrison Nadine" and concatenate them.
+The last letters of each word in "Earl Rudy Harrison Nadine" are: l, y, n, e. 
+
+Concatenating them, we get "lyne".
+Therefore, the answer is"lyne".
+pred_before : "lyne".
+pred_after : lyne
+pred : lyne
+GT : lyne
+*************************
+*************************
+477st data
+Take the last letters of each words in "Penny Harry Jessica Horacio" and concatenate them.
+The last letters of each word in "Penny Harry Jessica Horacio" are "y y a o". Concatenating them gives us "yyao".
+Therefore, the answer is"yyao".
+pred_before : "yyao".
+pred_after : yyao
+pred : yyao
+GT : yyao
+*************************
+*************************
+478st data
+Take the last letters of each words in "Star Jude Rosemarie Raquel" and concatenate them.
+The last letters of each word in "Star Jude Rosemarie Raquel" are: r, e, e, e, l. 
+
+Concatenating them, we get the word "reel".
+Therefore, the answer is"reel".
+pred_before : "reel".
+pred_after : reel
+pred : reel
+GT : reel
+*************************
+*************************
+479st data
+Take the last letters of each words in "Ever Gio Elia Ramesh" and concatenate them.
+The last letters of each word in "Ever Gio Elia Ramesh" are "r o a h h". 
+
+When concatenated, they form the word "roahh".
+Therefore, the answer is"roahh".
+pred_before : "roahh".
+pred_after : roahh
+pred : roahh
+GT : roah
+*************************
+*************************
+480st data
+Take the last letters of each words in "Juana Chip Lila Jayme" and concatenate them.
+The last letters of each word in "Juana Chip Lila Jayme" are: a, p, a, e. 
+
+Concatenating them, we get "apae".
+Therefore, the answer is"apae".
+pred_before : "apae".
+pred_after : apae
+pred : apae
+GT : apae
+*************************
+*************************
+481st data
+Take the last letters of each words in "Selina Tasha Jarrod Maddy" and concatenate them.
+The last letters of each word in "Selina Tasha Jarrod Maddy" are "a a d y". Concatenating them gives us the word "aady".
+Therefore, the answer is"aady".
+pred_before : "aady".
+pred_after : aady
+pred : aady
+GT : aady
+*************************
+*************************
+482st data
+Take the last letters of each words in "Marlen Sonja Anita Dale" and concatenate them.
+najae
+Therefore, the answer isnajae
+pred_before : najae
+pred_after : najae
+pred : najae
+GT : naae
+*************************
+*************************
+483st data
+Take the last letters of each words in "Lacey Nora Debra Ashleigh" and concatenate them.
+The last letters of each word in "Lacey Nora Debra Ashleigh" are "y a a h h h". Concatenating them gives us the word "yaahhh".
+Therefore, the answer is"yaahhh".
+pred_before : "yaahhh".
+pred_after : yaahhh
+pred : yaahhh
+GT : yaah
+*************************
+*************************
+484st data
+Take the last letters of each words in "Hilario Magdalena Morris Patricio" and concatenate them.
+The last letters of each word in "Hilario Magdalena Morris Patricio" are "o a a s o o i o". 
+
+When concatenated, they form the word "oaasooio".
+Therefore, the answer is"oaasooio".
+pred_before : "oaasooio".
+pred_after : oaasooio
+pred : oaasooio
+GT : oaso
+*************************
+*************************
+485st data
+Take the last letters of each words in "Ari Jasmine Elliot Kendrick" and concatenate them.
+The last letters of each word in "Ari Jasmine Elliot Kendrick" are: i, e, t, d, k. 
+
+Concatenating them together, we get "ietdk".
+Therefore, the answer is"ietdk".
+pred_before : "ietdk".
+pred_after : ietdk
+pred : ietdk
+GT : ietk
+*************************
+*************************
+486st data
+Take the last letters of each words in "Stella Janis Darren Lena" and concatenate them.
+The last letters of each word in "Stella Janis Darren Lena" are: a, s, n, a. 
+
+Concatenating them together, we get "asna".
+Therefore, the answer is"asna".
+pred_before : "asna".
+pred_after : asna
+pred : asna
+GT : asna
+*************************
+*************************
+487st data
+Take the last letters of each words in "Kyra Luciano Ciara Bryan" and concatenate them.
+The last letters of each word in "Kyra Luciano Ciara Bryan" are "a o a n n". Concatenating them gives us "aoann".
+Therefore, the answer is"aoann".
+pred_before : "aoann".
+pred_after : aoann
+pred : aoann
+GT : aoan
+*************************
+*************************
+488st data
+Take the last letters of each words in "Kennedy Ginny Iliana Sky" and concatenate them.
+The last letters of each word in "Kennedy Ginny Iliana Sky" are "y y a y". Concatenating them gives us "yyay".
+Therefore, the answer isyyay
+pred_before : yyay
+pred_after : yyay
+pred : yyay
+GT : yyay
+*************************
+*************************
+489st data
+Take the last letters of each words in "Karen Hector Mai Steven" and concatenate them.
+nrtoraien
+Therefore, the answer isnrtoraien
+pred_before : nrtoraien
+pred_after : nrtoraien
+pred : nrtoraien
+GT : nrin
+*************************
+*************************
+490st data
+Take the last letters of each words in "Lorraine Corinne Kate Floyd" and concatenate them.
+e e e t d
+Therefore, the answer iseetd
+pred_before : eetd
+pred_after : eetd
+pred : eetd
+GT : eeed
+*************************
+*************************
+491st data
+Take the last letters of each words in "Davis Jules Fabiola Cherie" and concatenate them.
+s e a e e
+Therefore, the answer iss e a e e
+pred_before : s e a e e
+pred_after : seaee
+pred : seaee
+GT : ssae
+*************************
+*************************
+492st data
+Take the last letters of each words in "Clark Jenn Diane Blair" and concatenate them.
+knnelair
+Therefore, the answer isknnelair
+pred_before : knnelair
+pred_after : knnelair
+pred : knnelair
+GT : kner
+*************************
+*************************
+493st data
+Take the last letters of each words in "Loren Wes Dean Hayley" and concatenate them.
+The last letters of each word in "Loren Wes Dean Hayley" are: n, s, n, y. 
+
+Concatenating them, we get: "nsny".
+Therefore, the answer is"nsny".
+pred_before : "nsny".
+pred_after : nsny
+pred : nsny
+GT : nsny
+*************************
+*************************
+494st data
+Take the last letters of each words in "Efrain Rickey Jonathan Kelli" and concatenate them.
+nnyk
+Therefore, the answer isnnyk
+pred_before : nnyk
+pred_after : nnyk
+pred : nnyk
+GT : nyni
+*************************
+*************************
+495st data
+Take the last letters of each words in "Brooklyn Dawn Tay Gene" and concatenate them.
+The last letters of each word in "Brooklyn Dawn Tay Gene" are: n, n, y, e, n, w, y, e. 
+
+Concatenating them gives us the word "nnyenwye".
+Therefore, the answer is"nnyenwye".
+pred_before : "nnyenwye".
+pred_after : nnyenwye
+pred : nnyenwye
+GT : nnye
+*************************
+*************************
+496st data
+Take the last letters of each words in "Sophie Gregorio Avery Pooja" and concatenate them.
+eegyajaa
+Therefore, the answer iseegyajaa
+pred_before : eegyajaa
+pred_after : eegyajaa
+pred : eegyajaa
+GT : eoya
+*************************
+*************************
+497st data
+Take the last letters of each words in "Teresa Reid Karin Gracie" and concatenate them.
+d, d, n, e
+Therefore, the answer is"dden"
+pred_before : "dden"
+pred_after : dden
+pred : dden
+GT : adne
+*************************
+*************************
+498st data
+Take the last letters of each words in "Russ Berta Mandy Lydia" and concatenate them.
+The last letters of each word in "Russ Berta Mandy Lydia" are "s a y a a". 
+
+When concatenated, they form the word "sayaa".
+Therefore, the answer is"sayaa".
+pred_before : "sayaa".
+pred_after : sayaa
+pred : sayaa
+GT : saya
+*************************
+*************************
+499st data
+Take the last letters of each words in "Hazel Gabrielle Tre Dalton" and concatenate them.
+The last letters of each word in "Hazel Gabrielle Tre Dalton" are "l e e e n". 
+
+Concatenating them gives us the word "leen".
+Therefore, the answer is"leen".
+pred_before : "leen".
+pred_after : leen
+pred : leen
+GT : leen
+*************************
+*************************
+500st data
+Take the last letters of each words in "Vinny Landon Miguel Caitlyn" and concatenate them.
+yndglnlnl
+Therefore, the answer isyndglnlnl
+pred_before : yndglnlnl
+pred_after : yndglnlnl
+pred : yndglnlnl
+GT : ynln
+*************************
+accuracy : 23.799999999999997
