@@ -1,6 +1,6 @@
 # Better Zero-Shot Reasoning with Role-Play Prompting
 
-This is the code for our paper "Better Zero-Shot Reasoning with Role-Play Prompting".
+This is the code for our paper "[Better Zero-Shot Reasoning with Role-Play Prompting](https://arxiv.org/abs/2308.07702)". Data is from [the repo of Zero-Shot-CoT](https://github.com/kojima-takeshi188/zero_shot_cot)
 
 ## Environment
 ```
@@ -29,3 +29,15 @@ bash run.sh
 More details are presented in run.sh.
 
 We provide our experimental results in my_log folder. And we observe that the results sometimes may not be completely fixed though the temperature is set to 0. But this does not affect our conclusion. See [related discussions](https://community.openai.com/t/a-question-on-determinism/8185/1) in OpenAI. 
+
+## citation
+```
+@misc{kong2023better,
+      title={Better Zero-Shot Reasoning with Role-Play Prompting}, 
+      author={Aobo Kong and Shiwan Zhao and Hao Chen and Qicheng Li and Yong Qin and Ruiqi Sun and Xin Zhou},
+      year={2023},
+      eprint={2308.07702},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
