@@ -2,6 +2,8 @@
 
 This is the code for our paper "[Better Zero-Shot Reasoning with Role-Play Prompting](https://arxiv.org/abs/2308.07702)". Data is from [the repo of Zero-Shot-CoT](https://github.com/kojima-takeshi188/zero_shot_cot)
 
+The repository is the latest version. After the paper is officially published, we will update its arxiv version.
+
 ## Environment
 ```
 openai 0.27.8
@@ -26,9 +28,10 @@ Then you can run the code using run.sh.
 ```
 bash run.sh
 ```
-More details are presented in run.sh.
 
-We provide our experimental results in my_log folder. And we observe that the results sometimes may not be completely fixed though the temperature is set to 0. But this does not affect our conclusion. See [related discussions](https://community.openai.com/t/a-question-on-determinism/8185/1) in OpenAI. 
+More details are presented in run.sh. And We provide our experimental results in my_log folder. 
+
+We observe that the results sometimes may not be completely fixed though the temperature is set to 0. But this does not affect our conclusion. See [related discussions](https://community.openai.com/t/a-question-on-determinism/8185/1) in OpenAI. 
 
 ## citation
 ```

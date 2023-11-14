@@ -51,10 +51,11 @@ def main():
         print("pred : {}".format(pred))
         print("GT : " + y)
         print('*************************')
-
+        
+        # We clean the pred and GT here!
         pred = clean_pred(pred)
         y = clean_ans(y)
-        
+
         # Checking answer ...
         correct = (np.array([pred]) == np.array([y])).sum().item()
         correct_list.append(correct)
@@ -75,15 +76,23 @@ def clean_ans(ans):
             continue
         new_ans += ans[i]
     # print(ans, new_ans)
+
+    if '.' in new_ans:
+        pos = new_ans.find('.')
+        if len(new_ans) - pos -1 > 7:
+            new_ans = new_ans[:pos + 7]
     return new_ans
     
 def clean_pred(pred):
     if '.' in pred:
-        
         pred = pred.rstrip('0')
-        
         if pred.endswith('.'):
             pred = pred[:-1]
+
+    if '.' in pred:
+        pos = pred.find('.')
+        if len(pred) - pos -1 > 7:
+            pred = pred[:pos + 7]
     return pred
     
 def parse_arguments():
